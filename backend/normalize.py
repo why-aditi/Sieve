@@ -22,7 +22,7 @@ from functools import lru_cache
 
 from rapidfuzz import fuzz
 
-from config import GROQ_MODEL, groq_key  # noqa: F401  (imported for .env load)
+from config import GROQ_MODEL, groq_client, groq_key  # noqa: F401 (.env load)
 from models import MerchantCluster, Transaction
 
 # ---------------------------------------------------------------- step 1: clean
@@ -219,9 +219,7 @@ def llm_resolve(cleaned: list[str]) -> dict[str, tuple[str, str]]:
         return {c: _LLM_CACHE[c] for c in cleaned if c in _LLM_CACHE}
 
     try:
-        from groq import Groq
-
-        response = Groq().chat.completions.create(
+        response = groq_client().chat.completions.create(
             model=GROQ_MODEL,
             temperature=0,
             response_format={

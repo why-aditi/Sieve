@@ -9,12 +9,15 @@ nothing to leak, expire, or delete.
 from __future__ import annotations
 
 import json
+import logging
 from datetime import date
 from pathlib import Path
 from typing import Literal, Optional
 
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
 import actions
@@ -219,6 +222,32 @@ def analyze_endpoint(req: AnalyzeRequest):
 MAX_UPLOAD = 40 * 1024 * 1024
 
 
+@app.exception_handler(RequestValidationError)
+def friendly_validation_error(request: Request, exc: RequestValidationError):
+    """FastAPI returns a list of pydantic error objects, which is unreadable in
+    a UI and unrenderable by a client expecting a string. Say what went wrong
+    in one sentence a person can act on."""
+    first = (exc.errors() or [{}])[0]
+    field = str((first.get("loc") or ["input"])[-1])
+    if first.get("type") in ("string_too_short", "missing") and field == "text":
+        message = "Paste some messages first — the box is empty."
+    elif first.get("type") == "string_too_long":
+        message = "That paste is too large. Try the XML export instead."
+    else:
+        message = f"Couldn't read the request: {first.get('msg', 'invalid input')} ({field})."
+    return JSONResponse(status_code=422, content={"detail": message})
+
+
+@app.exception_handler(Exception)
+def unexpected_error(request: Request, exc: Exception):
+    """No stack trace ever reaches a user. The server log keeps the detail."""
+    logging.exception("unhandled error on %s", request.url.path)
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "Something went wrong reading that. The sample data still works."},
+    )
+
+
 class PasteRequest(BaseModel):
     text: str = Field(min_length=1, max_length=8_000_000)
 
@@ -227,10 +256,21 @@ def _ingest(result) -> dict:
     """Every ingestion path returns the same shape as /demo/{profile}, so the
     frontend renders all of them through one code path."""
     if not result.transactions:
-        raise HTTPException(
-            422,
-            "No transactions found. " + (result.receipt.summary() or "Nothing readable."),
-        )
+        r = result.receipt
+        if r.scanned == 0:
+            detail = "Nothing to read in there."
+        elif r.unparsed:
+            detail = (
+                f"Found {r.scanned:,} message(s) but couldn't read a transaction "
+                f"from any of them. Sieve expects bank alerts like "
+                f'"Rs.649 debited from a/c XX4471 on 14-03-26 to NETFLIX".'
+            )
+        else:
+            detail = (
+                f"Read {r.scanned:,} message(s), but none were bank transactions "
+                f"— they looked like OTPs or promotions."
+            )
+        raise HTTPException(422, detail)
     return {
         "receipt": {**vars(result.receipt), "summary": result.receipt.summary()},
         **analyze(result.transactions),

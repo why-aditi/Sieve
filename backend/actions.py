@@ -19,7 +19,7 @@ import os
 from dataclasses import dataclass, field
 from typing import Optional
 
-from config import GROQ_MODEL, groq_key
+from config import GROQ_MODEL, groq_client, groq_key
 from models import Action, MerchantCluster, PriceChange
 
 # Categories where a human on the other end can actually change your price.
@@ -243,9 +243,7 @@ def renegotiation_email(
         return fallback
 
     try:
-        from groq import Groq
-
-        response = Groq().chat.completions.create(
+        response = groq_client().chat.completions.create(
             model=GROQ_MODEL,
             temperature=0.4,
             response_format={"type": "json_schema", "json_schema": {

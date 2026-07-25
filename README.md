@@ -5,7 +5,56 @@ Spec / source of truth: [`docs/prd.md`](docs/prd.md).
 
 Deterministic core, LLM at the edges. No database, no persisted financial data.
 
-**Status: Phase 0** — deployable skeleton + frozen data model. No detection logic yet.
+**Status: feature-frozen.** 188 tests passing.
+
+---
+
+## Does it actually work? (spec §14)
+
+Measured against `ground_truth.json`, which the generator emits *at injection
+time* — it records what it planted rather than re-deriving it, so this is a
+labelled test set and not a second copy of the detector.
+
+Reproduce with `pytest tests/test_engine.py -s -q`.
+
+| | precision | recall | F1 |
+|---|---|---|---|
+| **Recurring-transaction detection** | 1.000 | 1.000 | 1.000 |
+| **Price-hike detection** | 1.000 | 1.000 | 1.000 |
+| **Exclusion accuracy** (rent / EMI / SIP / salary / card / utilities) | 1.000 | 1.000 | 1.000 |
+| **Merchant normalization** | 380 / 380 raw strings mapped correctly (100%) | | |
+
+Per profile — 800 transactions each, 18 months:
+
+| profile | subs | hikes | excluded | normalization |
+|---|---|---|---|---|
+| student | 8/8 | 5/5 | 7/7 | 128/128 |
+| young professional | 9/9 | 5/5 | 7/7 | 118/118 |
+| family | 9/9 | 5/5 | 7/7 | 134/134 |
+
+### The failures we still have
+
+Perfect scores on a corpus we generated are weaker evidence than they look, and
+this is the honest reading of them:
+
+- **Merchant normalization at 100% is close to tautological.** The alias table
+  and the generator's templates were authored against the same brand list, so
+  this measures that the cascade works — not that it generalises. The real
+  measurement is below.
+- **Against real-world Indian bank SMS formats the generator never produced,
+  the template bank alone scored 0/12.** That is what forced the second
+  deterministic tier (field-role extraction), which brings it to **11/12**;
+  the LLM fallback recovers the twelfth. The one hard miss is an IMPS transfer
+  whose text contains no merchant name at all.
+- **Annual subscriptions sit 0.10 above the confidence floor.** Eighteen months
+  can hold only two annual charges, so §8's `>= 3` gate is relaxed to 2 for
+  them and confidence is capped at 0.60 against a 0.50 floor. A noisier pair
+  drops out.
+- **The amount-stability gate is unexercised.** Every surviving subscription
+  scores 0.0000 against a 0.35 threshold, so that threshold is an assumption,
+  not a validated number.
+- **SMS parse-rate is deliberately absent from this table.** Our own regexes
+  against our own generator is not a measurement.
 
 ---
 

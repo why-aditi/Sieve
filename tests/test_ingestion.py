@@ -98,7 +98,7 @@ def test_oversized_upload_is_refused():
 
 
 def test_garbage_is_a_clear_error_not_a_crash():
-    with pytest.raises(ValueError, match="readable"):
+    with pytest.raises(ValueError, match="SMS Backup & Restore"):
         SmsXmlAdapter().fetch(b"this is not xml at all <<<>>>")
 
 
@@ -153,7 +153,7 @@ def test_csv_dates_are_day_first():
 
 
 def test_unusable_csv_says_what_it_wanted():
-    with pytest.raises(ValueError, match="date, description and amount"):
+    with pytest.raises(ValueError, match="a date, a description and an amount"):
         CsvAdapter().fetch("foo,bar,baz\n1,2,3\n")
 
 

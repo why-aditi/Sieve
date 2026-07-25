@@ -29,7 +29,7 @@ from typing import Protocol
 
 from rapidfuzz import fuzz
 
-from config import GROQ_MODEL, groq_key
+from config import GROQ_MODEL, groq_client, groq_key
 from models import Transaction
 from sms_patterns import (
     is_bank_sender, looks_financial, parse_body, parse_date, strip_carrier,
@@ -361,8 +361,13 @@ class SmsXmlAdapter:
                     del el.getparent()[0]
                 if body:
                     yield sender, body, stamp
-        except etree.XMLSyntaxError as exc:
-            raise ValueError(f"not a readable SMS Backup & Restore file: {exc}") from exc
+        except etree.XMLSyntaxError:
+            # The raw lxml message ("Start tag expected, '<' not found, line 1,
+            # column 1") means nothing to someone who picked the wrong file.
+            raise ValueError(
+                "That doesn't look like an SMS Backup & Restore export. "
+                "It should be a .xml file whose contents start with <smses>."
+            ) from None
 
     @staticmethod
     def _stamp(value: str | None):
@@ -443,8 +448,11 @@ class CsvAdapter:
                 io.BytesIO(raw), nrows=MAX_CSV_ROWS, dtype=str,
                 skipinitialspace=True, encoding_errors="replace",
             )
-        except Exception as exc:
-            raise ValueError(f"could not read that CSV: {exc}") from exc
+        except Exception:
+            raise ValueError(
+                "That file isn't a readable CSV. Export your statement as CSV "
+                "from net banking and try again."
+            ) from None
 
         frame.columns = [str(c).strip() for c in frame.columns]
         cols = _match_columns(list(frame.columns))
@@ -452,10 +460,11 @@ class CsvAdapter:
         missing = [r for r in ("date", "description") if r not in cols]
         has_amount = "amount" in cols or "debit" in cols or "credit" in cols
         if missing or not has_amount:
+            seen = [c[:24] for c in frame.columns[:6] if c and not c.startswith("Unnamed")]
             raise ValueError(
-                "could not find the columns we need. Expected something like "
-                "date, description and amount — found: "
-                + ", ".join(frame.columns[:8])
+                "Couldn't find the columns Sieve needs — a date, a description "
+                "and an amount. The columns in this file are: "
+                + (", ".join(seen) if seen else "(none readable)")
             )
 
         receipt = ScanReceipt(source=self.source_name)
@@ -655,9 +664,7 @@ def llm_parse_sms(lines: list[str]) -> dict[int, dict]:
     numbered = "\n".join(f"{i}: {line}" for i, line in enumerate(lines))
     out: dict[int, dict] = {}
     try:
-        from groq import Groq
-
-        response = Groq().chat.completions.create(
+        response = groq_client().chat.completions.create(
             model=GROQ_MODEL,
             temperature=0,
             response_format={"type": "json_schema", "json_schema": {

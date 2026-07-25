@@ -13,20 +13,35 @@ const API = process.env.NEXT_PUBLIC_API_URL;
 export default function Connect() {
   const router = useRouter();
   const { setAnalysis, reset } = useSession();
-  const [api, setApi] = useState<"checking" | "up" | "down">("checking");
+  const [api, setApi] = useState<"checking" | "waking" | "up" | "down">("checking");
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [paste, setPaste] = useState("");
   const xmlInput = useRef<HTMLInputElement>(null);
   const csvInput = useRef<HTMLInputElement>(null);
 
-  // The API only matters on this screen. The demo path never touches it.
+  // The API only matters on this screen — the demo path never touches it.
+  //
+  // This ping doubles as the wake-up call: Render's free tier sleeps after
+  // ~15 minutes and takes ~50s to come back, so firing it the moment someone
+  // opens this page means the service is usually warm by the time they finish
+  // pasting. Say "waking up" rather than leaving a dead dot for a minute.
   useEffect(() => {
     if (!API) return setApi("down");
+    const slow = setTimeout(() => setApi((s) => (s === "checking" ? "waking" : s)), 2500);
     fetch(`${API}/health`)
       .then((r) => setApi(r.ok ? "up" : "down"))
-      .catch(() => setApi("down"));
+      .catch(() => setApi("down"))
+      .finally(() => clearTimeout(slow));
+    return () => clearTimeout(slow);
   }, []);
+
+  const apiLabel = {
+    checking: "Checking service…",
+    waking: "Waking the service — this takes about a minute on a free plan",
+    up: "Service online",
+    down: "Service unavailable — sample data still works",
+  }[api];
 
   function land(analysis: Analysis) {
     reset();
@@ -58,10 +73,13 @@ export default function Connect() {
             aria-hidden
             className="h-1.5 w-1.5 rounded-full"
             style={{
-              background: api === "up" ? "var(--color-keep)" : "var(--color-faint)",
+              background:
+                api === "up" ? "var(--color-keep)"
+                : api === "waking" ? "var(--color-review)"
+                : "var(--color-faint)",
             }}
           />
-          {api === "up" ? "Service online" : "Service unavailable"}
+          {apiLabel}
         </span>
       </header>
 
