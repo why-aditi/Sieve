@@ -144,6 +144,13 @@ ALIASES: dict[str, tuple[str, str]] = {
 # Longest first so "JIOSAAVN" wins over "JIO" and "SWIGGYONE" over "SWIGGY".
 _ALIAS_KEYS = sorted(ALIASES, key=len, reverse=True)
 
+# The key must start at a word boundary. Bare substring matching resolves
+# M-AHA-DISCOM (the Maharashtra electricity board) to the streaming service
+# "Aha" — the same failure mode as YOUTUBE-PR-EMI-UM in exclusions.py. A
+# TRAILING boundary is deliberately not required: bank strings glue suffixes on
+# ("NETFLIXENT", "SPOTIFYINDIA", "CULTFITIND") and those must still match.
+_ALIAS_PATTERNS = [(re.compile(r"\b" + re.escape(k)), k) for k in _ALIAS_KEYS]
+
 FUZZY_THRESHOLD = 85
 
 
@@ -153,8 +160,8 @@ def resolve(raw: str) -> tuple[str, str, str]:
     if not cleaned:
         return raw.strip() or "Unknown", "other", "empty"
 
-    for key in _ALIAS_KEYS:
-        if key in cleaned:
+    for pattern, key in _ALIAS_PATTERNS:
+        if pattern.search(cleaned):
             canonical, category = ALIASES[key]
             return canonical, category, "alias"
 
