@@ -1,1 +1,86 @@
 @import "tailwindcss";
+
+/* Sieve — dark, one accent (brass). Tailwind v4: tokens are CSS, no JS config.
+ *
+ * Chart colours are NOT in the accent family on purpose. Brass carries
+ * interaction (buttons, focus, links); series and status colours carry data.
+ * A colour never does both jobs. */
+@theme {
+  --color-ground: #0c0a09;      /* warm near-black, not cold #0a0a0a */
+  --color-surface: #17130f;     /* cards */
+  --color-raised: #211a14;      /* nested panels, expanded rows */
+  --color-line: #2b231b;        /* hairlines */
+  --color-ink: #f5f0e8;
+  --color-muted: #a39a8c;
+  --color-faint: #6b6255;
+  --color-brass: #c88a3e;
+  --color-brassdim: #8a5f2a;
+
+  /* Status ramp — reserved. Never reused as a series colour, always shipped
+   * with its text label so meaning is never colour-alone. */
+  --color-keep: #0ca30c;
+  --color-review: #fab219;
+  --color-downgrade: #ec835a;
+  --color-cancel: #d03b3b;
+
+  /* Categorical series, validated as a set against surface #17130f in dark
+   * mode: worst adjacent CVD ΔE 8.4, worst normal-vision ΔE 19.3. Fixed
+   * order, never cycled — a 7th category folds into "Other". */
+  --color-s1: #3987e5;
+  --color-s2: #d95926;
+  --color-s3: #199e70;
+  --color-s4: #c98500;
+  --color-s5: #d55181;
+  --color-s6: #9085e9;
+
+  --font-display: var(--font-bodoni), Georgia, serif;
+  --font-sans: var(--font-plex-sans), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+html {
+  color-scheme: dark;
+  background: #0c0a09;
+}
+
+body {
+  background: #0c0a09;
+  color: #f5f0e8;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Money and scores are always tabular so columns of figures line up. */
+.tnum {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+:focus-visible {
+  outline: 2px solid #c88a3e;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@keyframes collapse-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes settle {
+  from { opacity: 0; transform: scale(0.97); }
+  to   { opacity: 1; transform: none; }
+}
+
+.anim-in { animation: collapse-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.anim-settle { animation: settle 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* The quality floor, not a feature: motion is decoration here, and the end
+ * state must be reachable without it. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
