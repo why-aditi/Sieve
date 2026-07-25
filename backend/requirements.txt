@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+
+# Not imported yet. Installed now so the Render build is proven at hour 1
+# instead of failing on a wheel at hour 12.
+pandas
+rapidfuzz
+python-dateutil
+lxml
+
+pytest
