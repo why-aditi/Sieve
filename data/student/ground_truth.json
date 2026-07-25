@@ -1,0 +1,279 @@
+{
+  "profile": "student",
+  "seed": 20260726,
+  "window": {
+    "start": "2025-01-20",
+    "end": "2026-07-20",
+    "months": 18
+  },
+  "transaction_count": 800,
+  "subscriptions": [
+    {
+      "canonical": "Netflix",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 249.0,
+      "annual_cost": 2988.0,
+      "raw_variants": [
+        "UPI/NETFLIX BILLDESK/{ref6}/PAYMENT",
+        "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+        "POS {card}XXXX3310 NETFLIX.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Spotify",
+      "category": "music",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 59.0,
+      "annual_cost": 708.0,
+      "raw_variants": [
+        "UPI/SPOTIFYINDIA/{ref6}/PAYMENT",
+        "ACH-D- SPOTIFY INDIA LLP",
+        "NEFT-SPOTIFYIN-{ref4}-RTGS"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "JioSaavn",
+      "category": "music",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 99.0,
+      "annual_cost": 1188.0,
+      "raw_variants": [
+        "UPI/JIOSAAVN/{ref6}/PAYMENT",
+        "ACH-D- SAAVN MEDIA PVT LTD",
+        "POS {card}XXXX3310 JIOSAAVN.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "YouTube Premium",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 149.0,
+      "annual_cost": 1788.0,
+      "raw_variants": [
+        "UPI/GOOGLEYOUTUBE/{ref6}/PAYMENT",
+        "ACH-D- GOOGLE INDIA PVT LTD YT",
+        "POS {card}XXXX3310 YOUTUBEPREMIUM GURGAON"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "ChatGPT Plus",
+      "category": "saas",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 1999.0,
+      "annual_cost": 23988.0,
+      "raw_variants": [
+        "UPI/OPENAI/{ref6}/PAYMENT",
+        "POS {card}XXXX3310 OPENAI.COM SAN FRANCISCO",
+        "NEFT-OPENAILLC-{ref4}-RTGS"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Canva",
+      "category": "saas",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 628.59,
+      "annual_cost": 7543.08,
+      "raw_variants": [
+        "UPI/CANVAPTY/{ref6}/PAYMENT",
+        "ACH-D- CANVA PTY LTD",
+        "POS {card}XXXX3310 CANVA.COM SYDNEY"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Google One",
+      "category": "cloud",
+      "period": "annual",
+      "occurrences": 2,
+      "current_amount": 1300.0,
+      "annual_cost": 1300.0,
+      "raw_variants": [
+        "UPI/GOOGLEONE/{ref6}/PAYMENT",
+        "ACH-D- GOOGLE INDIA PVT LTD"
+      ],
+      "min_occurrences_required": 2
+    },
+    {
+      "canonical": "Jio",
+      "category": "telecom",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 299.0,
+      "annual_cost": 3588.0,
+      "raw_variants": [
+        "UPI/JIORECHARGE/{ref6}/PAYMENT",
+        "ACH-D- RELIANCE JIO INFOCOMM",
+        "POS {card}XXXX3310 JIO.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    }
+  ],
+  "price_changes": [
+    {
+      "canonical": "Netflix",
+      "kind": "step",
+      "from_amount": 199.0,
+      "to_amount": 249.0,
+      "changed_on": "2025-11-12",
+      "pct": 25.13
+    },
+    {
+      "canonical": "YouTube Premium",
+      "kind": "step",
+      "from_amount": 129.0,
+      "to_amount": 149.0,
+      "changed_on": "2026-02-09",
+      "pct": 15.5
+    },
+    {
+      "canonical": "Canva",
+      "kind": "creep",
+      "from_amount": 499.0,
+      "to_amount": 538.92,
+      "changed_on": "2025-05-15",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Canva",
+      "kind": "creep",
+      "from_amount": 538.92,
+      "to_amount": 582.03,
+      "changed_on": "2025-10-15",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Canva",
+      "kind": "creep",
+      "from_amount": 582.03,
+      "to_amount": 628.59,
+      "changed_on": "2026-03-17",
+      "pct": 8.0
+    }
+  ],
+  "trial_conversions": [
+    {
+      "canonical": "ChatGPT Plus",
+      "trial_amount": 0.0,
+      "full_amount": 1999.0,
+      "converted_on": "2025-02-22"
+    }
+  ],
+  "forgotten_annual": [
+    "Google One"
+  ],
+  "redundant_pairs": [
+    [
+      "Spotify",
+      "JioSaavn"
+    ],
+    [
+      "Netflix",
+      "YouTube Premium"
+    ]
+  ],
+  "excluded": [
+    {
+      "canonical": "Rent",
+      "reason": "rent",
+      "occurrences": 18,
+      "raw_variants": [
+        "NEFT-SUNITA PG-{ref4}-RENT",
+        "IMPS-P2A-{ref6}-PG HOSTEL RENT"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Stipend",
+      "reason": "salary",
+      "occurrences": 18,
+      "raw_variants": [
+        "NEFT-PARENT TRANSFER-{ref4}-MONTHLY",
+        "IMPS-P2A-{ref6}-SURESH KALA"
+      ],
+      "direction": "credit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Phone EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- BAJAJFIN EMI {ref6}",
+        "NACH-BAJAJ FINSERV-{ref4}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Laptop EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- HDB FINANCIAL EMI {ref6}",
+        "EMI HDBFS {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "SIP",
+      "reason": "sip",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- ZERODHA COIN SIP",
+        "NACH-SIP ZERODHA-{ref4}-MF"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Credit card autopay",
+      "reason": "cc_bill",
+      "occurrences": 18,
+      "raw_variants": [
+        "CC PAYMENT AUTOPAY ICICI {ref4}",
+        "AUTOPAY CARD PAYMENT {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    },
+    {
+      "canonical": "Electricity",
+      "reason": "utility",
+      "occurrences": 18,
+      "raw_variants": [
+        "MSEB BILL PAYMENT {ref6}",
+        "UPI/MAHADISCOM/{ref6}/PAYMENT"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    }
+  ],
+  "noise_merchants": [
+    "ATM",
+    "Amazon retail",
+    "Fuel",
+    "IRCTC",
+    "Swiggy",
+    "UPI transfer",
+    "Uber",
+    "Zomato"
+  ],
+  "noise_count": 546,
+  "expected_dedup_pairs": 128,
+  "sms_line_count": 2800,
+  "sms_bank_line_count": 800
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "id": "msg_00000",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 20 January 2025.\n\nReference: UPI/NETFLIX BILLDESK/275534/PAYMENT\nAmount: INR 199.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00001",
+    "from": "bills@paytm.com",
+    "subject": "Payment successful - Jio",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 20 January 2025.\n\nReference: UPI/JIORECHARGE/422740/PAYMENT\nAmount: INR 299.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00002",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for Spotify",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 20 January 2025.\n\nReference: UPI/SPOTIFYINDIA/256973/PAYMENT\nAmount: INR 59.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00003",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - JioSaavn",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 20 January 2025.\n\nReference: UPI/JIOSAAVN/478598/PAYMENT\nAmount: INR 99.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00004",
+    "from": "billing@razorpay.com",
+    "subject": "YouTube Premium subscription renewed",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 20 January 2025.\n\nReference: UPI/GOOGLEYOUTUBE/373769/PAYMENT\nAmount: INR 129.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00005",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for Canva",
+    "date": "2025-01-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 499.00 for Canva on 20 January 2025.\n\nReference: UPI/CANVAPTY/341580/PAYMENT\nAmount: INR 499.00\nDate: 20 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00006",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-01-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 0.00 for ChatGPT Plus on 22 January 2025.\n\nReference: UPI/OPENAI/699681/PAYMENT\nAmount: INR 0.00\nDate: 22 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00007",
+    "from": "payments@google.com",
+    "subject": "Payment successful - Google One",
+    "date": "2025-01-27",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,300.00 for Google One on 27 January 2025.\n\nReference: UPI/GOOGLEONE/373610/PAYMENT\nAmount: INR 1,300.00\nDate: 27 January 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00008",
+    "from": "bills@paytm.com",
+    "subject": "Invoice for Jio",
+    "date": "2025-02-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 February 2025.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 02 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00009",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for Spotify",
+    "date": "2025-02-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 February 2025.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 05 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00010",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2025-02-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 February 2025.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 129.00\nDate: 08 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00011",
+    "from": "billing@razorpay.com",
+    "subject": "Netflix subscription renewed",
+    "date": "2025-02-13",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 13 February 2025.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 199.00\nDate: 13 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00012",
+    "from": "invoice@razorpay.com",
+    "subject": "Your Canva receipt",
+    "date": "2025-02-13",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 499.00 for Canva on 13 February 2025.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 499.00\nDate: 13 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00013",
+    "from": "receipts@razorpay.com",
+    "subject": "JioSaavn subscription renewed",
+    "date": "2025-02-18",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 18 February 2025.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 18 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00014",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-02-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 22 February 2025.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 22 February 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00015",
+    "from": "bills@paytm.com",
+    "subject": "Jio subscription renewed",
+    "date": "2025-03-04",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 04 March 2025.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 04 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00016",
+    "from": "receipts@razorpay.com",
+    "subject": "Spotify subscription renewed",
+    "date": "2025-03-06",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 06 March 2025.\n\nReference: NEFT-SPOTIFYIN-3251-RTGS\nAmount: INR 59.00\nDate: 06 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00017",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2025-03-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 March 2025.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 129.00\nDate: 08 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00018",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-03-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 12 March 2025.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 199.00\nDate: 12 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00019",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for Canva",
+    "date": "2025-03-13",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 499.00 for Canva on 13 March 2025.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 499.00\nDate: 13 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00020",
+    "from": "receipts@razorpay.com",
+    "subject": "JioSaavn subscription renewed",
+    "date": "2025-03-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 March 2025.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 19 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00021",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-03-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 March 2025.\n\nReference: NEFT-OPENAILLC-4281-RTGS\nAmount: INR 1,999.00\nDate: 21 March 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00022",
+    "from": "bills@paytm.com",
+    "subject": "Jio subscription renewed",
+    "date": "2025-04-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 April 2025.\n\nReference: UPI/JIORECHARGE/691888/PAYMENT\nAmount: INR 299.00\nDate: 02 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00023",
+    "from": "receipts@razorpay.com",
+    "subject": "Spotify subscription renewed",
+    "date": "2025-04-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 April 2025.\n\nReference: UPI/SPOTIFYINDIA/573870/PAYMENT\nAmount: INR 59.00\nDate: 05 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00024",
+    "from": "billing@razorpay.com",
+    "subject": "YouTube Premium subscription renewed",
+    "date": "2025-04-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 April 2025.\n\nReference: UPI/GOOGLEYOUTUBE/782045/PAYMENT\nAmount: INR 129.00\nDate: 08 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00025",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-04-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 12 April 2025.\n\nReference: UPI/NETFLIX BILLDESK/403358/PAYMENT\nAmount: INR 199.00\nDate: 12 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00026",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - Canva",
+    "date": "2025-04-16",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 499.00 for Canva on 16 April 2025.\n\nReference: UPI/CANVAPTY/805843/PAYMENT\nAmount: INR 499.00\nDate: 16 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00027",
+    "from": "receipts@razorpay.com",
+    "subject": "JioSaavn subscription renewed",
+    "date": "2025-04-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 April 2025.\n\nReference: UPI/JIOSAAVN/891968/PAYMENT\nAmount: INR 99.00\nDate: 19 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00028",
+    "from": "invoice@razorpay.com",
+    "subject": "ChatGPT Plus subscription renewed",
+    "date": "2025-04-23",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 23 April 2025.\n\nReference: UPI/OPENAI/820183/PAYMENT\nAmount: INR 1,999.00\nDate: 23 April 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00029",
+    "from": "bills@paytm.com",
+    "subject": "Jio subscription renewed",
+    "date": "2025-05-04",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 04 May 2025.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 04 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00030",
+    "from": "receipts@razorpay.com",
+    "subject": "Spotify subscription renewed",
+    "date": "2025-05-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 May 2025.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 05 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00031",
+    "from": "billing@razorpay.com",
+    "subject": "YouTube Premium subscription renewed",
+    "date": "2025-05-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 10 May 2025.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 129.00\nDate: 10 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00032",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-05-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 12 May 2025.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 199.00\nDate: 12 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00033",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - Canva",
+    "date": "2025-05-15",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 538.92 for Canva on 15 May 2025.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 538.92\nDate: 15 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00034",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-05-18",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 18 May 2025.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 18 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00035",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-05-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 22 May 2025.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 22 May 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00036",
+    "from": "bills@paytm.com",
+    "subject": "Jio subscription renewed",
+    "date": "2025-06-01",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 01 June 2025.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 01 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00037",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2025-06-07",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 07 June 2025.\n\nReference: NEFT-SPOTIFYIN-6811-RTGS\nAmount: INR 59.00\nDate: 07 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00038",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2025-06-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 10 June 2025.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 129.00\nDate: 10 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00039",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-06-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 12 June 2025.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 199.00\nDate: 12 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00040",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - Canva",
+    "date": "2025-06-17",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 538.92 for Canva on 17 June 2025.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 538.92\nDate: 17 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00041",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-06-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 June 2025.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 19 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00042",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-06-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 June 2025.\n\nReference: NEFT-OPENAILLC-7043-RTGS\nAmount: INR 1,999.00\nDate: 21 June 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00043",
+    "from": "bills@paytm.com",
+    "subject": "Payment successful - Jio",
+    "date": "2025-07-03",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 03 July 2025.\n\nReference: UPI/JIORECHARGE/562720/PAYMENT\nAmount: INR 299.00\nDate: 03 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00044",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2025-07-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 July 2025.\n\nReference: UPI/SPOTIFYINDIA/848107/PAYMENT\nAmount: INR 59.00\nDate: 05 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00045",
+    "from": "billing@razorpay.com",
+    "subject": "YouTube Premium subscription renewed",
+    "date": "2025-07-09",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 09 July 2025.\n\nReference: UPI/GOOGLEYOUTUBE/356112/PAYMENT\nAmount: INR 129.00\nDate: 09 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00046",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-07-11",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 11 July 2025.\n\nReference: UPI/NETFLIX BILLDESK/463746/PAYMENT\nAmount: INR 199.00\nDate: 11 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00047",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - Canva",
+    "date": "2025-07-17",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 538.92 for Canva on 17 July 2025.\n\nReference: UPI/CANVAPTY/617212/PAYMENT\nAmount: INR 538.92\nDate: 17 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00048",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-07-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 July 2025.\n\nReference: UPI/JIOSAAVN/179903/PAYMENT\nAmount: INR 99.00\nDate: 19 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00049",
+    "from": "invoice@razorpay.com",
+    "subject": "ChatGPT Plus subscription renewed",
+    "date": "2025-07-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 22 July 2025.\n\nReference: UPI/OPENAI/374879/PAYMENT\nAmount: INR 1,999.00\nDate: 22 July 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00050",
+    "from": "bills@paytm.com",
+    "subject": "Your Jio receipt",
+    "date": "2025-08-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 August 2025.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 02 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00051",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2025-08-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 August 2025.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 05 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00052",
+    "from": "billing@razorpay.com",
+    "subject": "YouTube Premium subscription renewed",
+    "date": "2025-08-06",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 06 August 2025.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 129.00\nDate: 06 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00053",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2025-08-14",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 14 August 2025.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 199.00\nDate: 14 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00054",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for Canva",
+    "date": "2025-08-14",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 538.92 for Canva on 14 August 2025.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 538.92\nDate: 14 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00055",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-08-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 August 2025.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 19 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00056",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for ChatGPT Plus",
+    "date": "2025-08-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 August 2025.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 21 August 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00057",
+    "from": "bills@paytm.com",
+    "subject": "Jio subscription renewed",
+    "date": "2025-09-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 September 2025.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 02 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00058",
+    "from": "receipts@razorpay.com",
+    "subject": "Your Spotify receipt",
+    "date": "2025-09-07",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 07 September 2025.\n\nReference: NEFT-SPOTIFYIN-1676-RTGS\nAmount: INR 59.00\nDate: 07 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00059",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2025-09-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 September 2025.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 129.00\nDate: 08 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00060",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2025-09-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 12 September 2025.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 199.00\nDate: 12 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00061",
+    "from": "invoice@razorpay.com",
+    "subject": "Your Canva receipt",
+    "date": "2025-09-14",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 538.92 for Canva on 14 September 2025.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 538.92\nDate: 14 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00062",
+    "from": "receipts@razorpay.com",
+    "subject": "Your JioSaavn receipt",
+    "date": "2025-09-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 September 2025.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 19 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00063",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-09-24",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 24 September 2025.\n\nReference: NEFT-OPENAILLC-8379-RTGS\nAmount: INR 1,999.00\nDate: 24 September 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00064",
+    "from": "bills@paytm.com",
+    "subject": "Your Jio receipt",
+    "date": "2025-10-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 October 2025.\n\nReference: UPI/JIORECHARGE/590266/PAYMENT\nAmount: INR 299.00\nDate: 02 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00065",
+    "from": "receipts@razorpay.com",
+    "subject": "Spotify subscription renewed",
+    "date": "2025-10-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 October 2025.\n\nReference: UPI/SPOTIFYINDIA/594749/PAYMENT\nAmount: INR 59.00\nDate: 05 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00066",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2025-10-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 October 2025.\n\nReference: UPI/GOOGLEYOUTUBE/219072/PAYMENT\nAmount: INR 129.00\nDate: 08 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00067",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2025-10-11",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 199.00 for Netflix on 11 October 2025.\n\nReference: UPI/NETFLIX BILLDESK/143368/PAYMENT\nAmount: INR 199.00\nDate: 11 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00068",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for Canva",
+    "date": "2025-10-15",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 582.03 for Canva on 15 October 2025.\n\nReference: UPI/CANVAPTY/423141/PAYMENT\nAmount: INR 582.03\nDate: 15 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00069",
+    "from": "receipts@razorpay.com",
+    "subject": "JioSaavn subscription renewed",
+    "date": "2025-10-17",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 17 October 2025.\n\nReference: UPI/JIOSAAVN/739788/PAYMENT\nAmount: INR 99.00\nDate: 17 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00070",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2025-10-24",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 24 October 2025.\n\nReference: UPI/OPENAI/773759/PAYMENT\nAmount: INR 1,999.00\nDate: 24 October 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00071",
+    "from": "bills@paytm.com",
+    "subject": "Your Jio receipt",
+    "date": "2025-11-01",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 01 November 2025.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 01 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00072",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2025-11-06",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 06 November 2025.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 06 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00073",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2025-11-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 08 November 2025.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 129.00\nDate: 08 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00074",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2025-11-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 12 November 2025.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 249.00\nDate: 12 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00075",
+    "from": "invoice@razorpay.com",
+    "subject": "Canva subscription renewed",
+    "date": "2025-11-17",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 582.03 for Canva on 17 November 2025.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 582.03\nDate: 17 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00076",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-11-18",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 18 November 2025.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 18 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00077",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for ChatGPT Plus",
+    "date": "2025-11-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 November 2025.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 21 November 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00078",
+    "from": "bills@paytm.com",
+    "subject": "Payment successful - Jio",
+    "date": "2025-12-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 December 2025.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 02 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00079",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2025-12-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 December 2025.\n\nReference: NEFT-SPOTIFYIN-6216-RTGS\nAmount: INR 59.00\nDate: 05 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00080",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2025-12-07",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 07 December 2025.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 129.00\nDate: 07 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00081",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2025-12-13",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 13 December 2025.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 249.00\nDate: 13 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00082",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for Canva",
+    "date": "2025-12-16",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 582.03 for Canva on 16 December 2025.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 582.03\nDate: 16 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00083",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2025-12-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 20 December 2025.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 20 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00084",
+    "from": "invoice@razorpay.com",
+    "subject": "ChatGPT Plus subscription renewed",
+    "date": "2025-12-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 December 2025.\n\nReference: NEFT-OPENAILLC-5005-RTGS\nAmount: INR 1,999.00\nDate: 21 December 2025\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00085",
+    "from": "bills@paytm.com",
+    "subject": "Invoice for Jio",
+    "date": "2026-01-01",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 01 January 2026.\n\nReference: UPI/JIORECHARGE/248354/PAYMENT\nAmount: INR 299.00\nDate: 01 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00086",
+    "from": "receipts@razorpay.com",
+    "subject": "Your Spotify receipt",
+    "date": "2026-01-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 January 2026.\n\nReference: UPI/SPOTIFYINDIA/915797/PAYMENT\nAmount: INR 59.00\nDate: 05 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00087",
+    "from": "billing@razorpay.com",
+    "subject": "Your Netflix receipt",
+    "date": "2026-01-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 10 January 2026.\n\nReference: UPI/NETFLIX BILLDESK/588129/PAYMENT\nAmount: INR 249.00\nDate: 10 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00088",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2026-01-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 129.00 for YouTube Premium on 10 January 2026.\n\nReference: UPI/GOOGLEYOUTUBE/200466/PAYMENT\nAmount: INR 129.00\nDate: 10 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00089",
+    "from": "invoice@razorpay.com",
+    "subject": "Canva subscription renewed",
+    "date": "2026-01-15",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 582.03 for Canva on 15 January 2026.\n\nReference: UPI/CANVAPTY/348626/PAYMENT\nAmount: INR 582.03\nDate: 15 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00090",
+    "from": "receipts@razorpay.com",
+    "subject": "Invoice for JioSaavn",
+    "date": "2026-01-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 January 2026.\n\nReference: UPI/JIOSAAVN/206652/PAYMENT\nAmount: INR 99.00\nDate: 19 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00091",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for ChatGPT Plus",
+    "date": "2026-01-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 January 2026.\n\nReference: UPI/OPENAI/365044/PAYMENT\nAmount: INR 1,999.00\nDate: 21 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00092",
+    "from": "payments@google.com",
+    "subject": "Google One subscription renewed",
+    "date": "2026-01-28",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,300.00 for Google One on 28 January 2026.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD\nAmount: INR 1,300.00\nDate: 28 January 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00093",
+    "from": "bills@paytm.com",
+    "subject": "Invoice for Jio",
+    "date": "2026-02-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 February 2026.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 02 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00094",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2026-02-04",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 04 February 2026.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 04 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00095",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2026-02-09",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 149.00 for YouTube Premium on 09 February 2026.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 149.00\nDate: 09 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00096",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2026-02-11",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 11 February 2026.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 249.00\nDate: 11 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00097",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - Canva",
+    "date": "2026-02-15",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 582.03 for Canva on 15 February 2026.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 582.03\nDate: 15 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00098",
+    "from": "receipts@razorpay.com",
+    "subject": "Your JioSaavn receipt",
+    "date": "2026-02-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 February 2026.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 19 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00099",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2026-02-23",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 23 February 2026.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 23 February 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00100",
+    "from": "bills@paytm.com",
+    "subject": "Payment successful - Jio",
+    "date": "2026-03-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 March 2026.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 02 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00101",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2026-03-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 March 2026.\n\nReference: NEFT-SPOTIFYIN-9355-RTGS\nAmount: INR 59.00\nDate: 05 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00102",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - YouTube Premium",
+    "date": "2026-03-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 149.00 for YouTube Premium on 10 March 2026.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 149.00\nDate: 10 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00103",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2026-03-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 12 March 2026.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 249.00\nDate: 12 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00104",
+    "from": "invoice@razorpay.com",
+    "subject": "Canva subscription renewed",
+    "date": "2026-03-17",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 628.59 for Canva on 17 March 2026.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 628.59\nDate: 17 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00105",
+    "from": "receipts@razorpay.com",
+    "subject": "Your JioSaavn receipt",
+    "date": "2026-03-18",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 18 March 2026.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 18 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00106",
+    "from": "invoice@razorpay.com",
+    "subject": "Invoice for ChatGPT Plus",
+    "date": "2026-03-21",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 21 March 2026.\n\nReference: NEFT-OPENAILLC-8757-RTGS\nAmount: INR 1,999.00\nDate: 21 March 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00107",
+    "from": "bills@paytm.com",
+    "subject": "Your Jio receipt",
+    "date": "2026-04-02",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 02 April 2026.\n\nReference: UPI/JIORECHARGE/898726/PAYMENT\nAmount: INR 299.00\nDate: 02 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00108",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - Spotify",
+    "date": "2026-04-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 April 2026.\n\nReference: UPI/SPOTIFYINDIA/396140/PAYMENT\nAmount: INR 59.00\nDate: 05 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00109",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2026-04-08",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 149.00 for YouTube Premium on 08 April 2026.\n\nReference: UPI/GOOGLEYOUTUBE/191183/PAYMENT\nAmount: INR 149.00\nDate: 08 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00110",
+    "from": "billing@razorpay.com",
+    "subject": "Netflix subscription renewed",
+    "date": "2026-04-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 12 April 2026.\n\nReference: UPI/NETFLIX BILLDESK/518405/PAYMENT\nAmount: INR 249.00\nDate: 12 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00111",
+    "from": "invoice@razorpay.com",
+    "subject": "Your Canva receipt",
+    "date": "2026-04-16",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 628.59 for Canva on 16 April 2026.\n\nReference: UPI/CANVAPTY/113612/PAYMENT\nAmount: INR 628.59\nDate: 16 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00112",
+    "from": "receipts@razorpay.com",
+    "subject": "Your JioSaavn receipt",
+    "date": "2026-04-18",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 18 April 2026.\n\nReference: UPI/JIOSAAVN/803275/PAYMENT\nAmount: INR 99.00\nDate: 18 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00113",
+    "from": "invoice@razorpay.com",
+    "subject": "Payment successful - ChatGPT Plus",
+    "date": "2026-04-20",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 20 April 2026.\n\nReference: UPI/OPENAI/614304/PAYMENT\nAmount: INR 1,999.00\nDate: 20 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00114",
+    "from": "bills@paytm.com",
+    "subject": "Invoice for Jio",
+    "date": "2026-04-30",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 30 April 2026.\n\nReference: ACH-D- RELIANCE JIO INFOCOMM\nAmount: INR 299.00\nDate: 30 April 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00115",
+    "from": "receipts@razorpay.com",
+    "subject": "Your Spotify receipt",
+    "date": "2026-05-06",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 06 May 2026.\n\nReference: ACH-D- SPOTIFY INDIA LLP\nAmount: INR 59.00\nDate: 06 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00116",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for YouTube Premium",
+    "date": "2026-05-07",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 149.00 for YouTube Premium on 07 May 2026.\n\nReference: ACH-D- GOOGLE INDIA PVT LTD YT\nAmount: INR 149.00\nDate: 07 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00117",
+    "from": "billing@razorpay.com",
+    "subject": "Invoice for Netflix",
+    "date": "2026-05-10",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 10 May 2026.\n\nReference: ACH-D- NETFLIX ENTERTAINMENT SERVICES\nAmount: INR 249.00\nDate: 10 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00118",
+    "from": "invoice@razorpay.com",
+    "subject": "Canva subscription renewed",
+    "date": "2026-05-13",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 628.59 for Canva on 13 May 2026.\n\nReference: ACH-D- CANVA PTY LTD\nAmount: INR 628.59\nDate: 13 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00119",
+    "from": "receipts@razorpay.com",
+    "subject": "Your JioSaavn receipt",
+    "date": "2026-05-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 May 2026.\n\nReference: ACH-D- SAAVN MEDIA PVT LTD\nAmount: INR 99.00\nDate: 19 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00120",
+    "from": "invoice@razorpay.com",
+    "subject": "Your ChatGPT Plus receipt",
+    "date": "2026-05-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 22 May 2026.\n\nReference: POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO\nAmount: INR 1,999.00\nDate: 22 May 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00121",
+    "from": "bills@paytm.com",
+    "subject": "Your Jio receipt",
+    "date": "2026-06-04",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 299.00 for Jio on 04 June 2026.\n\nReference: POS 8821XXXX3310 JIO.COM MUMBAI\nAmount: INR 299.00\nDate: 04 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00122",
+    "from": "receipts@razorpay.com",
+    "subject": "Your Spotify receipt",
+    "date": "2026-06-05",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 59.00 for Spotify on 05 June 2026.\n\nReference: NEFT-SPOTIFYIN-1952-RTGS\nAmount: INR 59.00\nDate: 05 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00123",
+    "from": "billing@razorpay.com",
+    "subject": "Your YouTube Premium receipt",
+    "date": "2026-06-07",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 149.00 for YouTube Premium on 07 June 2026.\n\nReference: POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON\nAmount: INR 149.00\nDate: 07 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00124",
+    "from": "billing@razorpay.com",
+    "subject": "Payment successful - Netflix",
+    "date": "2026-06-12",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 249.00 for Netflix on 12 June 2026.\n\nReference: POS 8821XXXX3310 NETFLIX.COM MUMBAI\nAmount: INR 249.00\nDate: 12 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00125",
+    "from": "invoice@razorpay.com",
+    "subject": "Canva subscription renewed",
+    "date": "2026-06-16",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 628.59 for Canva on 16 June 2026.\n\nReference: POS 8821XXXX3310 CANVA.COM SYDNEY\nAmount: INR 628.59\nDate: 16 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00126",
+    "from": "receipts@razorpay.com",
+    "subject": "Payment successful - JioSaavn",
+    "date": "2026-06-19",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 99.00 for JioSaavn on 19 June 2026.\n\nReference: POS 8821XXXX3310 JIOSAAVN.COM MUMBAI\nAmount: INR 99.00\nDate: 19 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  },
+  {
+    "id": "msg_00127",
+    "from": "invoice@razorpay.com",
+    "subject": "Your ChatGPT Plus receipt",
+    "date": "2026-06-22",
+    "body_text": "Hello,\n\nWe have received your payment of Rs 1,999.00 for ChatGPT Plus on 22 June 2026.\n\nReference: NEFT-OPENAILLC-5489-RTGS\nAmount: INR 1,999.00\nDate: 22 June 2026\n\nThis is an automated receipt. Do not reply.\n"
+  }
+]

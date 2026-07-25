@@ -1,0 +1,294 @@
+{
+  "profile": "family",
+  "seed": 20260727,
+  "window": {
+    "start": "2025-01-20",
+    "end": "2026-07-20",
+    "months": 18
+  },
+  "transaction_count": 800,
+  "subscriptions": [
+    {
+      "canonical": "Netflix",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 799.0,
+      "annual_cost": 9588.0,
+      "raw_variants": [
+        "UPI/NETFLIX BILLDESK/{ref6}/PAYMENT",
+        "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+        "NEFT-NETFLIXENT-{ref4}-RTGS",
+        "POS {card}XXXX7788 NETFLIX.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "JioHotstar",
+      "category": "streaming",
+      "period": "quarterly",
+      "occurrences": 6,
+      "current_amount": 299.0,
+      "annual_cost": 1196.0,
+      "raw_variants": [
+        "UPI/HOTSTARSUB/{ref6}/PAYMENT",
+        "ACH-D- JIOHOTSTAR DIGITAL",
+        "POS {card}XXXX7788 HOTSTAR.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "SonyLIV",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 299.0,
+      "annual_cost": 3588.0,
+      "raw_variants": [
+        "UPI/SONYLIVSUB/{ref6}/PAYMENT",
+        "ACH-D- SONY PICTURES NETWORKS INDIA",
+        "POS {card}XXXX7788 SONYLIV.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Zee5",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 199.0,
+      "annual_cost": 2388.0,
+      "raw_variants": [
+        "UPI/ZEE5SUB/{ref6}/PAYMENT",
+        "ACH-D- ZEE ENTERTAINMENT ENTERPRISES",
+        "POS {card}XXXX7788 ZEE5.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Amazon Prime",
+      "category": "streaming",
+      "period": "annual",
+      "occurrences": 2,
+      "current_amount": 1499.0,
+      "annual_cost": 1499.0,
+      "raw_variants": [
+        "UPI/AMAZONPRIME/{ref6}/PAYMENT",
+        "ACH-D- AMAZON PRIME INDIA"
+      ],
+      "min_occurrences_required": 2
+    },
+    {
+      "canonical": "ACT Fibernet",
+      "category": "telecom",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 1699.35,
+      "annual_cost": 20392.2,
+      "raw_variants": [
+        "UPI/ACTFIBERNET/{ref6}/PAYMENT",
+        "ACH-D- ATRIA CONVERGENCE TECHNOLOGIES",
+        "NEFT-ACTFIBER-{ref4}-RTGS"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Airtel",
+      "category": "telecom",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 999.0,
+      "annual_cost": 11988.0,
+      "raw_variants": [
+        "UPI/AIRTELPOSTPAID/{ref6}/PAYMENT",
+        "ACH-D- BHARTI AIRTEL LIMITED",
+        "POS {card}XXXX7788 AIRTEL.IN GURGAON"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Cult.fit",
+      "category": "fitness",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 2799.0,
+      "annual_cost": 33588.0,
+      "raw_variants": [
+        "UPI/CULTFIT/{ref6}/PAYMENT",
+        "ACH-D- CUREFIT HEALTHCARE PVT LTD",
+        "POS {card}XXXX7788 CULT.FIT BENGALURU"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Swiggy One",
+      "category": "food",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 99.0,
+      "annual_cost": 1188.0,
+      "raw_variants": [
+        "UPI/SWIGGYONE/{ref6}/PAYMENT",
+        "ACH-D- BUNDL TECHNOLOGIES PVT LTD",
+        "POS {card}XXXX7788 SWIGGY ONE BENGALURU"
+      ],
+      "min_occurrences_required": 3
+    }
+  ],
+  "price_changes": [
+    {
+      "canonical": "Netflix",
+      "kind": "step",
+      "from_amount": 649.0,
+      "to_amount": 799.0,
+      "changed_on": "2025-10-09",
+      "pct": 23.11
+    },
+    {
+      "canonical": "ACT Fibernet",
+      "kind": "creep",
+      "from_amount": 1349.0,
+      "to_amount": 1456.92,
+      "changed_on": "2025-05-02",
+      "pct": 8.0
+    },
+    {
+      "canonical": "ACT Fibernet",
+      "kind": "creep",
+      "from_amount": 1456.92,
+      "to_amount": 1573.47,
+      "changed_on": "2025-10-02",
+      "pct": 8.0
+    },
+    {
+      "canonical": "ACT Fibernet",
+      "kind": "creep",
+      "from_amount": 1573.47,
+      "to_amount": 1699.35,
+      "changed_on": "2026-03-04",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Cult.fit",
+      "kind": "step",
+      "from_amount": 2499.0,
+      "to_amount": 2799.0,
+      "changed_on": "2026-01-11",
+      "pct": 12.0
+    }
+  ],
+  "trial_conversions": [
+    {
+      "canonical": "Swiggy One",
+      "trial_amount": 1.0,
+      "full_amount": 99.0,
+      "converted_on": "2025-03-02"
+    }
+  ],
+  "forgotten_annual": [
+    "Amazon Prime"
+  ],
+  "redundant_pairs": [
+    [
+      "SonyLIV",
+      "Zee5"
+    ],
+    [
+      "Netflix",
+      "SonyLIV"
+    ]
+  ],
+  "excluded": [
+    {
+      "canonical": "Rent",
+      "reason": "rent",
+      "occurrences": 18,
+      "raw_variants": [
+        "NEFT-VIJAY MEHTA-{ref4}-RENT",
+        "IMPS-P2A-{ref6}-VIJAY MEHTA RENT"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Salary",
+      "reason": "salary",
+      "occurrences": 18,
+      "raw_variants": [
+        "SALARY GLOBEX CONSULTING PVT LTD {ref6}",
+        "NEFT-GLOBEX CONSULTING-{ref4}-SALARY"
+      ],
+      "direction": "credit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Home loan EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- SBILOAN HOME EMI {ref6}",
+        "EMI SBI HOME LOAN {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Car EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- ICICILOAN CAR EMI {ref6}",
+        "NACH-ICICI BANK LOAN-{ref4}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "SIP",
+      "reason": "sip",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- KUVERA AXIS BLUECHIP SIP",
+        "NACH-SIP KUVERA-{ref4}-MF"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Credit card autopay",
+      "reason": "cc_bill",
+      "occurrences": 18,
+      "raw_variants": [
+        "CC PAYMENT AUTOPAY AXIS {ref4}",
+        "AUTOPAY CARD PAYMENT {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    },
+    {
+      "canonical": "Electricity",
+      "reason": "utility",
+      "occurrences": 18,
+      "raw_variants": [
+        "TATA POWER BILL {ref6}",
+        "UPI/TATAPOWERDL/{ref6}/PAYMENT"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    }
+  ],
+  "noise_merchants": [
+    "ATM",
+    "Amazon retail",
+    "Fuel",
+    "IRCTC",
+    "Swiggy",
+    "UPI transfer",
+    "Uber",
+    "Zomato"
+  ],
+  "noise_count": 540,
+  "expected_dedup_pairs": 134,
+  "sms_line_count": 2800,
+  "sms_bank_line_count": 800
+}

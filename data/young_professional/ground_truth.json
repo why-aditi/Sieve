@@ -1,0 +1,290 @@
+{
+  "profile": "young_professional",
+  "seed": 20260725,
+  "window": {
+    "start": "2025-01-20",
+    "end": "2026-07-20",
+    "months": 18
+  },
+  "transaction_count": 800,
+  "subscriptions": [
+    {
+      "canonical": "Netflix",
+      "category": "streaming",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 649.0,
+      "annual_cost": 7788.0,
+      "raw_variants": [
+        "UPI/NETFLIX BILLDESK/{ref6}/PAYMENT",
+        "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+        "NEFT-NETFLIXENT-{ref4}-RTGS",
+        "POS {card}XXXX2210 NETFLIX.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Spotify",
+      "category": "music",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 149.0,
+      "annual_cost": 1788.0,
+      "raw_variants": [
+        "UPI/SPOTIFYINDIA/{ref6}/PAYMENT",
+        "ACH-D- SPOTIFY INDIA LLP",
+        "POS {card}XXXX2210 SPOTIFY.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "JioHotstar",
+      "category": "streaming",
+      "period": "quarterly",
+      "occurrences": 6,
+      "current_amount": 299.0,
+      "annual_cost": 1196.0,
+      "raw_variants": [
+        "UPI/HOTSTARSUB/{ref6}/PAYMENT",
+        "ACH-D- JIOHOTSTAR DIGITAL",
+        "POS {card}XXXX2210 HOTSTAR.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Cult.fit",
+      "category": "fitness",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 1888.3,
+      "annual_cost": 22659.6,
+      "raw_variants": [
+        "UPI/CULTFIT/{ref6}/PAYMENT",
+        "ACH-D- CUREFIT HEALTHCARE PVT LTD",
+        "NEFT-CULTFITIND-{ref4}-RTGS",
+        "POS {card}XXXX2210 CULT.FIT BENGALURU"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Adobe CC",
+      "category": "saas",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 1950.0,
+      "annual_cost": 23400.0,
+      "raw_variants": [
+        "UPI/ADOBEINDIA/{ref6}/PAYMENT",
+        "ACH-D- ADOBE SYSTEMS INDIA PVT LTD",
+        "POS {card}XXXX2210 ADOBE.COM NOIDA"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "Google One",
+      "category": "cloud",
+      "period": "annual",
+      "occurrences": 2,
+      "current_amount": 1300.0,
+      "annual_cost": 1300.0,
+      "raw_variants": [
+        "UPI/GOOGLEONE/{ref6}/PAYMENT",
+        "ACH-D- GOOGLE INDIA PVT LTD"
+      ],
+      "min_occurrences_required": 2
+    },
+    {
+      "canonical": "Amazon Prime",
+      "category": "streaming",
+      "period": "annual",
+      "occurrences": 2,
+      "current_amount": 1499.0,
+      "annual_cost": 1499.0,
+      "raw_variants": [
+        "UPI/AMAZONPRIME/{ref6}/PAYMENT",
+        "ACH-D- AMAZON PRIME INDIA"
+      ],
+      "min_occurrences_required": 2
+    },
+    {
+      "canonical": "JioSaavn",
+      "category": "music",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 99.0,
+      "annual_cost": 1188.0,
+      "raw_variants": [
+        "UPI/JIOSAAVN/{ref6}/PAYMENT",
+        "ACH-D- SAAVN MEDIA PVT LTD",
+        "POS {card}XXXX2210 JIOSAAVN.COM MUMBAI"
+      ],
+      "min_occurrences_required": 3
+    },
+    {
+      "canonical": "ChatGPT Plus",
+      "category": "saas",
+      "period": "monthly",
+      "occurrences": 18,
+      "current_amount": 1999.0,
+      "annual_cost": 23988.0,
+      "raw_variants": [
+        "UPI/OPENAI/{ref6}/PAYMENT",
+        "POS {card}XXXX2210 OPENAI.COM SAN FRANCISCO",
+        "NEFT-OPENAILLC-{ref4}-RTGS"
+      ],
+      "min_occurrences_required": 3
+    }
+  ],
+  "price_changes": [
+    {
+      "canonical": "Spotify",
+      "kind": "step",
+      "from_amount": 119.0,
+      "to_amount": 149.0,
+      "changed_on": "2025-09-08",
+      "pct": 25.21
+    },
+    {
+      "canonical": "Cult.fit",
+      "kind": "creep",
+      "from_amount": 1499.0,
+      "to_amount": 1618.92,
+      "changed_on": "2025-05-03",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Cult.fit",
+      "kind": "creep",
+      "from_amount": 1618.92,
+      "to_amount": 1748.43,
+      "changed_on": "2025-10-01",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Cult.fit",
+      "kind": "creep",
+      "from_amount": 1748.43,
+      "to_amount": 1888.3,
+      "changed_on": "2026-03-05",
+      "pct": 8.0
+    },
+    {
+      "canonical": "Adobe CC",
+      "kind": "step",
+      "from_amount": 1675.0,
+      "to_amount": 1950.0,
+      "changed_on": "2025-12-04",
+      "pct": 16.42
+    }
+  ],
+  "trial_conversions": [
+    {
+      "canonical": "ChatGPT Plus",
+      "trial_amount": 1.0,
+      "full_amount": 1999.0,
+      "converted_on": "2025-02-23"
+    }
+  ],
+  "forgotten_annual": [
+    "Google One"
+  ],
+  "redundant_pairs": [
+    [
+      "Spotify",
+      "JioSaavn"
+    ]
+  ],
+  "excluded": [
+    {
+      "canonical": "Rent",
+      "reason": "rent",
+      "occurrences": 18,
+      "raw_variants": [
+        "NEFT-RAMESH KUMAR-{ref4}-RENT",
+        "IMPS-P2A-{ref6}-RAMESH KUMAR RENT"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Salary",
+      "reason": "salary",
+      "occurrences": 18,
+      "raw_variants": [
+        "SALARY ACME TECHNOLOGIES PVT LTD {ref6}",
+        "NEFT-ACME TECHNOLOGIES-{ref4}-SALARY"
+      ],
+      "direction": "credit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Home loan EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- HDFCLOAN EMI {ref6}",
+        "EMI HDFC LTD {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Consumer EMI",
+      "reason": "emi",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- BAJAJFIN EMI {ref6}",
+        "NACH-BAJAJ FINSERV-{ref4}"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "SIP",
+      "reason": "sip",
+      "occurrences": 18,
+      "raw_variants": [
+        "ACH-D- GROWW NIPPON INDIA MF SIP",
+        "NACH-SIP GROWW-{ref4}-MF"
+      ],
+      "direction": "debit",
+      "variable_amount": false
+    },
+    {
+      "canonical": "Credit card autopay",
+      "reason": "cc_bill",
+      "occurrences": 18,
+      "raw_variants": [
+        "CC PAYMENT AUTOPAY HDFC {ref4}",
+        "AUTOPAY CARD PAYMENT {ref6}"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    },
+    {
+      "canonical": "Electricity",
+      "reason": "utility",
+      "occurrences": 18,
+      "raw_variants": [
+        "BESCOM BILL PAYMENT {ref6}",
+        "UPI/BESCOMBLR/{ref6}/PAYMENT"
+      ],
+      "direction": "debit",
+      "variable_amount": true
+    }
+  ],
+  "noise_merchants": [
+    "ATM",
+    "Amazon retail",
+    "Fuel",
+    "IRCTC",
+    "Swiggy",
+    "UPI transfer",
+    "Uber",
+    "Zomato"
+  ],
+  "noise_count": 556,
+  "expected_dedup_pairs": 118,
+  "sms_line_count": 2800,
+  "sms_bank_line_count": 800
+}

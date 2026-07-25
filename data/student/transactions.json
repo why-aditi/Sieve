@@ -1,0 +1,7202 @@
+[
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/275534/PAYMENT",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:0",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/JIORECHARGE/422740/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:110",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "NEFT-SUNITA PG-9512-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:128",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "NEFT-PARENT TRANSFER-2334-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:146",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 832614",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:164",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/SPOTIFYINDIA/256973/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:18",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 638297",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:182",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:200",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "MSEB BILL PAYMENT 288795",
+    "amount": 450.04,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:236",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/ZOMATO/322368/PAYMENT",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:293",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 280.88,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:344",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/UBERINDIA/602849/PAYMENT",
+    "amount": 437.83,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:345",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/JIOSAAVN/478598/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:36",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/SWIGGY/713476/PAYMENT",
+    "amount": 470.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:385",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "IMPS-P2A-102213-ROHIT SHARMA",
+    "amount": 600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:405",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS CHENNAI",
+    "amount": 195.76,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:449",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/PRIYA5032@OKAXIS/174355/PAYMENT",
+    "amount": 1700,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:468",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/MEGHA5447@YBL/968456/PAYMENT",
+    "amount": 900,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:509",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "ATM WDL PUNE 581933",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:529",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/373769/PAYMENT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:54",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 335.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:552",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/ARJUN5061@OKHDFCBANK/292502/PAYMENT",
+    "amount": 350,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:592",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/PRIYA6810@OKAXIS/414337/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:594",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 273.99,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:601",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/BHARATPETRO/298489/PAYMENT",
+    "amount": 1450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:603",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/UBERINDIA/113638/PAYMENT",
+    "amount": 454.78,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:620",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/AMAZONPAY/561535/PAYMENT",
+    "amount": 2027.97,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:638",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "IMPS-P2A-624524-ROHIT SHARMA",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:648",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/SWIGGY/576227/PAYMENT",
+    "amount": 313.48,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:652",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "IMPS-P2A-169004-ROHIT SHARMA",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:674",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/AMAZONPAY/226645/PAYMENT",
+    "amount": 1246.39,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:677",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/IRCTCUPI/645050/PAYMENT",
+    "amount": 868.57,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:680",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/ZOMATO/283693/PAYMENT",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:686",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD PUNE",
+    "amount": 321.18,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:698",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/AMAZONPAY/620798/PAYMENT",
+    "amount": 1260.14,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:714",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/PRIYA8609@OKAXIS/913366/PAYMENT",
+    "amount": 1200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:777",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-20",
+    "merchant_raw": "UPI/CANVAPTY/341580/PAYMENT",
+    "amount": 499.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:90",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-21",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 8312",
+    "amount": 3084.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:218",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-21",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN DELHI",
+    "amount": 1121.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:381",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-21",
+    "merchant_raw": "UPI/PRIYA9336@OKAXIS/994043/PAYMENT",
+    "amount": 950,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:613",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-22",
+    "merchant_raw": "UPI/OPENAI/699681/PAYMENT",
+    "amount": 0.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:72",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-23",
+    "merchant_raw": "UPI/SWIGGY/927877/PAYMENT",
+    "amount": 343.08,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:533",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-23",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 206.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:599",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-25",
+    "merchant_raw": "UPI/SWIGGY/214965/PAYMENT",
+    "amount": 258.89,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:268",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-25",
+    "merchant_raw": "UPI/ZOMATO/412726/PAYMENT",
+    "amount": 248.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:624",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-27",
+    "merchant_raw": "UPI/GOOGLEONE/373610/PAYMENT",
+    "amount": 1300.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:108",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-01-29",
+    "merchant_raw": "UPI/PRIYA2369@OKAXIS/819257/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:537",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-01",
+    "merchant_raw": "UPI/UBERINDIA/103551/PAYMENT",
+    "amount": 318.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:265",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-02",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:111",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-02",
+    "merchant_raw": "IMPS-P2A-855944-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:129",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-02",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 492.88,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:420",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-03",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL DELHI",
+    "amount": 990,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:583",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-03",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 597.78,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:708",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-04",
+    "merchant_raw": "IMPS-P2A-417974-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:147",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-04",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 281.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:362",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-05",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:19",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-05",
+    "merchant_raw": "UPI/UBERINDIA/267655/PAYMENT",
+    "amount": 208.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:338",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-5963",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:165",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-06",
+    "merchant_raw": "UPI/ZOMATO/182491/PAYMENT",
+    "amount": 547.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:666",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-08",
+    "merchant_raw": "UPI/SWIGGY/633151/PAYMENT",
+    "amount": 345.18,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:458",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-08",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:55",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-08",
+    "merchant_raw": "UPI/SWIGGYUPI/302051/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:610",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-09",
+    "merchant_raw": "NACH-SIP ZERODHA-7319-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:201",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-09",
+    "merchant_raw": "UPI/ZOMATO/872226/PAYMENT",
+    "amount": 288.26,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:273",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-11",
+    "merchant_raw": "UPI/UBERINDIA/805540/PAYMENT",
+    "amount": 208.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:383",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-13",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:1",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-13",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 499.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:91",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-14",
+    "merchant_raw": "UPI/MAHADISCOM/345591/PAYMENT",
+    "amount": 596.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:237",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-15",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 515.61,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:279",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-15",
+    "merchant_raw": "IMPS-P2A-778356-ROHIT SHARMA",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:363",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-16",
+    "merchant_raw": "UPI/AMAZONPAY/986664/PAYMENT",
+    "amount": 3773.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:741",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-17",
+    "merchant_raw": "EMI HDBFS 608329",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:183",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-17",
+    "merchant_raw": "UPI/MEGHA3682@YBL/325293/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:404",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-17",
+    "merchant_raw": "UPI/UBERINDIA/834701/PAYMENT",
+    "amount": 323.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:496",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-18",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:37",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-18",
+    "merchant_raw": "UPI/ARJUN2106@OKHDFCBANK/122155/PAYMENT",
+    "amount": 950,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:443",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-18",
+    "merchant_raw": "UPI/ARJUN8394@OKHDFCBANK/765152/PAYMENT",
+    "amount": 450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:641",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-19",
+    "merchant_raw": "UPI/ZOMATO/727379/PAYMENT",
+    "amount": 450.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:668",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-20",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN MUMBAI",
+    "amount": 2472.24,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:524",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-21",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 643451",
+    "amount": 7480.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:219",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-21",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 483.13,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:411",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-21",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS CHENNAI",
+    "amount": 199.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:426",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-21",
+    "merchant_raw": "UPI/ARJUN6759@OKHDFCBANK/594395/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:473",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-22",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN HYDERABAD",
+    "amount": 2979.09,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:435",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-22",
+    "merchant_raw": "UPI/IRCTCUPI/380019/PAYMENT",
+    "amount": 671.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:578",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-22",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:73",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-23",
+    "merchant_raw": "UPI/SWIGGYUPI/345741/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:678",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-25",
+    "merchant_raw": "UPI/PRIYA5075@OKAXIS/351926/PAYMENT",
+    "amount": 1400,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:508",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-25",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS CHENNAI",
+    "amount": 418.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:636",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-27",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH BENGALURU",
+    "amount": 261.39,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:560",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-02-28",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 1025.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:566",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-01",
+    "merchant_raw": "ATM WDL GURGAON 561051",
+    "amount": 7000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:534",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-4552-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:148",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-02",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 463.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:675",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-04",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:112",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-04",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH BENGALURU",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:632",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-05",
+    "merchant_raw": "NEFT-SUNITA PG-9568-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:130",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-05",
+    "merchant_raw": "UPI/SWIGGYUPI/520810/PAY",
+    "amount": 622.08,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:471",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-06",
+    "merchant_raw": "NEFT-SPOTIFYIN-3251-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:20",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-06",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD GURGAON",
+    "amount": 339.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:476",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-06",
+    "merchant_raw": "UPI/AMAZONPAY/296698/PAYMENT",
+    "amount": 2356.35,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:658",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-08",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 902840",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:166",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-08",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL PUNE",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:462",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-08",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:56",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-09",
+    "merchant_raw": "UPI/ZOMATO/165275/PAYMENT",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:356",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-09",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 232.8,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:535",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-11",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:202",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-11",
+    "merchant_raw": "UPI/MEGHA3270@YBL/960259/PAYMENT",
+    "amount": 1400,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:298",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-12",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:2",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-13",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 499.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:92",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-14",
+    "merchant_raw": "MSEB BILL PAYMENT 338113",
+    "amount": 980.42,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:238",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-14",
+    "merchant_raw": "UPI/MEGHA7378@YBL/643314/PAYMENT",
+    "amount": 1450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:584",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-16",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 905801",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:184",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-17",
+    "merchant_raw": "UPI/ZOMATO/318811/PAYMENT",
+    "amount": 442.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:390",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-17",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP HYDERABAD",
+    "amount": 1320,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:494",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-17",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 441.71,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:693",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-19",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:38",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-20",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 395.51,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:779",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-21",
+    "merchant_raw": "UPI/SWIGGY/168307/PAYMENT",
+    "amount": 264.08,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:428",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-21",
+    "merchant_raw": "NEFT-OPENAILLC-4281-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:74",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-22",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 2030",
+    "amount": 6952.84,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:220",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-22",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN PUNE",
+    "amount": 2185.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:297",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-22",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 288.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:681",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-23",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP GURGAON",
+    "amount": 1330,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:292",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-23",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 264.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:323",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-24",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 294.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:313",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-24",
+    "merchant_raw": "UPI/ZOMATO/818655/PAYMENT",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:585",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-25",
+    "merchant_raw": "UPI/BHARATPETRO/393581/PAYMENT",
+    "amount": 1320,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:597",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-27",
+    "merchant_raw": "UPI/AMAZONPAY/861307/PAYMENT",
+    "amount": 844.24,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:539",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-28",
+    "merchant_raw": "UPI/SWIGGY/575420/PAYMENT",
+    "amount": 363.04,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:702",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-28",
+    "merchant_raw": "UPI/AMAZONPAY/199215/PAYMENT",
+    "amount": 1644.57,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:731",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-29",
+    "merchant_raw": "UPI/AMAZONPAY/480823/PAYMENT",
+    "amount": 1218.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:520",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-29",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH BENGALURU",
+    "amount": 368.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:564",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-29",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL CHENNAI",
+    "amount": 2420,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:711",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-03-29",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 297.75,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:746",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-01",
+    "merchant_raw": "UPI/SWIGGY/988867/PAYMENT",
+    "amount": 253.99,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:349",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-02",
+    "merchant_raw": "UPI/JIORECHARGE/691888/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:113",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-02",
+    "merchant_raw": "IMPS-P2A-302529-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:149",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-02",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 234.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:359",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-04",
+    "merchant_raw": "UPI/PRIYA2089@OKAXIS/862411/PAYMENT",
+    "amount": 900,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:445",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-05",
+    "merchant_raw": "IMPS-P2A-205560-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:131",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-05",
+    "merchant_raw": "UPI/SPOTIFYINDIA/573870/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:21",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-05",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL MUMBAI",
+    "amount": 1170,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:254",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-05",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH BENGALURU",
+    "amount": 319.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:394",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-4608",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:167",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-08",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/782045/PAYMENT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:57",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-09",
+    "merchant_raw": "NACH-SIP ZERODHA-4272-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:203",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-09",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD CHENNAI",
+    "amount": 579.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:481",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-12",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/403358/PAYMENT",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:3",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-12",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 389.83,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:442",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-13",
+    "merchant_raw": "UPI/SWIGGY/331945/PAYMENT",
+    "amount": 262.7,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:682",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-14",
+    "merchant_raw": "UPI/MAHADISCOM/554018/PAYMENT",
+    "amount": 738.62,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:239",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-15",
+    "merchant_raw": "NEFT-AMAZONSELLER-8225-RTGS",
+    "amount": 2831.93,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:752",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-16",
+    "merchant_raw": "UPI/CANVAPTY/805843/PAYMENT",
+    "amount": 499.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:93",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-17",
+    "merchant_raw": "EMI HDBFS 451961",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:185",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-18",
+    "merchant_raw": "ATM CASH 115505 HYDERABAD",
+    "amount": 6000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:593",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-19",
+    "merchant_raw": "UPI/SWIGGY/458180/PAYMENT",
+    "amount": 411.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:333",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-19",
+    "merchant_raw": "UPI/AMAZONPAY/693061/PAYMENT",
+    "amount": 1840.68,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:339",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-19",
+    "merchant_raw": "UPI/JIOSAAVN/891968/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:39",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-19",
+    "merchant_raw": "UPI/SWIGGY/521623/PAYMENT",
+    "amount": 335.7,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:558",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-22",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 266376",
+    "amount": 8560.98,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:221",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-22",
+    "merchant_raw": "ATM CASH 821214 HYDERABAD",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:685",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-23",
+    "merchant_raw": "UPI/OPENAI/820183/PAYMENT",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:75",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-24",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 211.82,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:565",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-25",
+    "merchant_raw": "UPI/ZOMATO/318171/PAYMENT",
+    "amount": 414.04,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:353",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-25",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH BENGALURU",
+    "amount": 420.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:516",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-26",
+    "merchant_raw": "UPI/ARJUN6061@OKHDFCBANK/609922/PAYMENT",
+    "amount": 1350,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:795",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-27",
+    "merchant_raw": "UPI/UBERINDIA/929499/PAYMENT",
+    "amount": 264.09,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:374",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-28",
+    "merchant_raw": "ATM WDL BENGALURU 955400",
+    "amount": 3500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:549",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-28",
+    "merchant_raw": "ATM CASH 362408 HYDERABAD",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:615",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-04-30",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 173.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:606",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-7841-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:150",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-02",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS CHENNAI",
+    "amount": 179.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:521",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-04",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:114",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-04",
+    "merchant_raw": "NEFT-SUNITA PG-4687-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:132",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-04",
+    "merchant_raw": "UPI/MEGHA9890@YBL/234806/PAYMENT",
+    "amount": 250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:370",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-04",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 264.21,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:690",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-05",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:22",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-06",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 953439",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:168",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-06",
+    "merchant_raw": "UPI/SWIGGYUPI/204407/PAY",
+    "amount": 229.8,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:725",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-07",
+    "merchant_raw": "IMPS-P2A-173002-ROHIT SHARMA",
+    "amount": 1600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:671",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-07",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL MUMBAI",
+    "amount": 1940,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:792",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-09",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:204",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-09",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD CHENNAI",
+    "amount": 236.85,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:414",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-10",
+    "merchant_raw": "UPI/ZOMATO/210163/PAYMENT",
+    "amount": 350.68,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:304",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-10",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:58",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-10",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN PUNE",
+    "amount": 3450.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:684",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-11",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD GURGAON",
+    "amount": 255.76,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:751",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-12",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:4",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-12",
+    "merchant_raw": "UPI/UBERINDIA/517112/PAYMENT",
+    "amount": 260.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:673",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-13",
+    "merchant_raw": "NEFT-AMAZONSELLER-9738-RTGS",
+    "amount": 4500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:482",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-13",
+    "merchant_raw": "IMPS-P2A-965816-ROHIT SHARMA",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:709",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-15",
+    "merchant_raw": "MSEB BILL PAYMENT 568591",
+    "amount": 1012.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:240",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-15",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 538.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:94",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-16",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 398.13,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:284",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-16",
+    "merchant_raw": "ATM CASH 262501 MUMBAI",
+    "amount": 9000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:796",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-17",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 881085",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:186",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-17",
+    "merchant_raw": "UPI/SWIGGY/464074/PAYMENT",
+    "amount": 328.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:262",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-17",
+    "merchant_raw": "UPI/SWIGGY/605393/PAYMENT",
+    "amount": 297.25,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:354",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-18",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL MUMBAI",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:280",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-18",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:40",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-18",
+    "merchant_raw": "UPI/UBERINDIA/587992/PAYMENT",
+    "amount": 142.85,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:689",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-21",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 6168",
+    "amount": 6681.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:222",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-21",
+    "merchant_raw": "UPI/UBERINDIA/398629/PAYMENT",
+    "amount": 596.71,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:393",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-21",
+    "merchant_raw": "UPI/UBERINDIA/251436/PAYMENT",
+    "amount": 363.28,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:551",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-22",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:76",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-23",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 600.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:329",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-24",
+    "merchant_raw": "UPI/PRIYA8048@OKAXIS/822068/PAYMENT",
+    "amount": 1250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:797",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-29",
+    "merchant_raw": "IMPS-P2A-453783-ROHIT SHARMA",
+    "amount": 950,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:391",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-30",
+    "merchant_raw": "UPI/ZOMATO/549471/PAYMENT",
+    "amount": 342.83,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:642",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-30",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 344.17,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:655",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-31",
+    "merchant_raw": "ATM WDL DELHI 941687",
+    "amount": 3500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:303",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-31",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 546.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:504",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-05-31",
+    "merchant_raw": "IMPS-P2A-696658-ROHIT SHARMA",
+    "amount": 750,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:519",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-01",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:115",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-01",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN MUMBAI",
+    "amount": 840.13,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:277",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-01",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH HYDERABAD",
+    "amount": 289.35,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:346",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-01",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 214.19,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:527",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-01",
+    "merchant_raw": "UPI/SWIGGYUPI/344099/PAY",
+    "amount": 430.89,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:605",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-02",
+    "merchant_raw": "IMPS-P2A-313214-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:151",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-03",
+    "merchant_raw": "IMPS-P2A-762547-ROHIT SHARMA",
+    "amount": 450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:301",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-05",
+    "merchant_raw": "IMPS-P2A-483613-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:133",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-4840",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:169",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-07",
+    "merchant_raw": "NEFT-SPOTIFYIN-6811-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:23",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-07",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 627.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:421",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-08",
+    "merchant_raw": "UPI/UBERINDIA/276583/PAYMENT",
+    "amount": 323.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:645",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-09",
+    "merchant_raw": "NACH-SIP ZERODHA-2835-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:205",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-10",
+    "merchant_raw": "UPI/PRIYA2663@OKAXIS/408819/PAYMENT",
+    "amount": 1150,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:299",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-10",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:59",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-11",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN BENGALURU",
+    "amount": 1732.05,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:700",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-12",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:5",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-13",
+    "merchant_raw": "UPI/PRIYA1151@OKAXIS/506104/PAYMENT",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:479",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-14",
+    "merchant_raw": "UPI/ZOMATO/898902/PAYMENT",
+    "amount": 209.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:699",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-16",
+    "merchant_raw": "UPI/MAHADISCOM/929731/PAYMENT",
+    "amount": 562.25,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:241",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-16",
+    "merchant_raw": "UPI/ARJUN7350@OKHDFCBANK/651418/PAYMENT",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:670",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-17",
+    "merchant_raw": "EMI HDBFS 953326",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:187",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-17",
+    "merchant_raw": "NEFT-AMAZONSELLER-5498-RTGS",
+    "amount": 1245.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:328",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-17",
+    "merchant_raw": "UPI/UBERINDIA/939026/PAYMENT",
+    "amount": 452.38,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:484",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-17",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 538.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:95",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-18",
+    "merchant_raw": "UPI/MEGHA6260@YBL/719181/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:697",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-19",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:41",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-20",
+    "merchant_raw": "UPI/SWIGGY/925537/PAYMENT",
+    "amount": 422.61,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:567",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-20",
+    "merchant_raw": "UPI/SWIGGY/381611/PAYMENT",
+    "amount": 314.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:683",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-21",
+    "merchant_raw": "UPI/UBERINDIA/261750/PAYMENT",
+    "amount": 308.4,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:259",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-21",
+    "merchant_raw": "UPI/ARJUN1059@OKHDFCBANK/915911/PAYMENT",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:289",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-21",
+    "merchant_raw": "NEFT-OPENAILLC-7043-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:77",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-22",
+    "merchant_raw": "IMPS-P2A-661197-ROHIT SHARMA",
+    "amount": 750,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:267",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-22",
+    "merchant_raw": "UPI/SWIGGY/285679/PAYMENT",
+    "amount": 449.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:487",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-23",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 328663",
+    "amount": 6664.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:223",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-23",
+    "merchant_raw": "ATM CASH 154962 MUMBAI",
+    "amount": 2500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:553",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-23",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 304.62,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:688",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-25",
+    "merchant_raw": "UPI/MEGHA7220@YBL/383211/PAYMENT",
+    "amount": 600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:490",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-26",
+    "merchant_raw": "UPI/SWIGGYUPI/386659/PAY",
+    "amount": 332.13,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:503",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-26",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 129.47,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:557",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-26",
+    "merchant_raw": "NEFT-AMAZONSELLER-6987-RTGS",
+    "amount": 2770.39,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:771",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-27",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 600.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:290",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-30",
+    "merchant_raw": "NEFT-PARENT TRANSFER-5208-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:152",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-06-30",
+    "merchant_raw": "ATM CASH 159502 MUMBAI",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:743",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-02",
+    "merchant_raw": "UPI/ZOMATO/658053/PAYMENT",
+    "amount": 467.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:581",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-03",
+    "merchant_raw": "UPI/JIORECHARGE/562720/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:116",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-04",
+    "merchant_raw": "NEFT-SUNITA PG-8640-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:134",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-05",
+    "merchant_raw": "UPI/SPOTIFYINDIA/848107/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:24",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-05",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD GURGAON",
+    "amount": 354.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:422",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-05",
+    "merchant_raw": "ATM CASH 603926 BENGALURU",
+    "amount": 7500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:461",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-05",
+    "merchant_raw": "IMPS-P2A-874443-ROHIT SHARMA",
+    "amount": 600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:640",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-06",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 865133",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:170",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-07",
+    "merchant_raw": "UPI/SWIGGYUPI/791528/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:514",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-07",
+    "merchant_raw": "UPI/PRIYA1347@OKAXIS/832043/PAYMENT",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:647",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-08",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 338.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:368",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-09",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:206",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-09",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 1912.01,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:312",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-09",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/356112/PAYMENT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:60",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-11",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/463746/PAYMENT",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:6",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-11",
+    "merchant_raw": "IMPS-P2A-700824-ROHIT SHARMA",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:717",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-12",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD CHENNAI",
+    "amount": 355.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:364",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-13",
+    "merchant_raw": "UPI/SWIGGYUPI/727845/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:738",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-14",
+    "merchant_raw": "UPI/MEGHA9247@YBL/587591/PAYMENT",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:596",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-14",
+    "merchant_raw": "UPI/SWIGGYUPI/302265/PAY",
+    "amount": 244.82,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:660",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-15",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 435.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:485",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-15",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 293.64,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:612",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-15",
+    "merchant_raw": "UPI/AMAZONPAY/498425/PAYMENT",
+    "amount": 1124.2,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:644",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-16",
+    "merchant_raw": "MSEB BILL PAYMENT 558988",
+    "amount": 572.58,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:242",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-16",
+    "merchant_raw": "UPI/UBERINDIA/848052/PAYMENT",
+    "amount": 126.08,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:340",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-17",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 153036",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:188",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-17",
+    "merchant_raw": "ATM CASH 265399 CHENNAI",
+    "amount": 2500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:316",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-17",
+    "merchant_raw": "UPI/MEGHA1325@YBL/617024/PAYMENT",
+    "amount": 750,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:351",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-17",
+    "merchant_raw": "UPI/UBERINDIA/198747/PAYMENT",
+    "amount": 129.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:695",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-17",
+    "merchant_raw": "UPI/CANVAPTY/617212/PAYMENT",
+    "amount": 538.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:96",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-18",
+    "merchant_raw": "UPI/ZOMATO/778564/PAYMENT",
+    "amount": 379.51,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:477",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 9968",
+    "amount": 8673.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:224",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "UPI/JIOSAAVN/179903/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:42",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 298.89,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:538",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "UPI/IRCTCUPI/742594/PAYMENT",
+    "amount": 658.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:628",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN BENGALURU",
+    "amount": 607.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:705",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 489.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:753",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-19",
+    "merchant_raw": "UPI/ZOMATO/838068/PAYMENT",
+    "amount": 280.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:799",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-20",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 318.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:287",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-21",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 159.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:320",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-22",
+    "merchant_raw": "UPI/OPENAI/374879/PAYMENT",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:78",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-23",
+    "merchant_raw": "ATM CASH 202915 HYDERABAD",
+    "amount": 8000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:735",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-23",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 299.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:764",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-24",
+    "merchant_raw": "UPI/UBERINDIA/290693/PAYMENT",
+    "amount": 99.26,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:453",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-26",
+    "merchant_raw": "UPI/AMAZONPAY/972169/PAYMENT",
+    "amount": 577.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:736",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-26",
+    "merchant_raw": "UPI/PRIYA8461@OKAXIS/378538/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:789",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-27",
+    "merchant_raw": "UPI/SWIGGY/200237/PAYMENT",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:577",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-27",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 295.88,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:590",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-29",
+    "merchant_raw": "IMPS-P2A-919227-ROHIT SHARMA",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:263",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-29",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 474.91,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:742",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-30",
+    "merchant_raw": "UPI/SWIGGYUPI/833890/PAY",
+    "amount": 333.5,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:775",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-07-31",
+    "merchant_raw": "UPI/ARJUN6755@OKHDFCBANK/535139/PAYMENT",
+    "amount": 1950,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:694",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-02",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:117",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-02",
+    "merchant_raw": "IMPS-P2A-642628-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:153",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-02",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD HYDERABAD",
+    "amount": 257.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:361",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-03",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 327.35,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:783",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-05",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:25",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-05",
+    "merchant_raw": "UPI/AMAZONPAY/855345/PAYMENT",
+    "amount": 3181.69,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:547",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-06",
+    "merchant_raw": "IMPS-P2A-575678-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:135",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-8518",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:171",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-06",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:61",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-07",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH GURGAON",
+    "amount": 205.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:618",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-09",
+    "merchant_raw": "NACH-SIP ZERODHA-7738-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:207",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-09",
+    "merchant_raw": "UPI/PRIYA4222@OKAXIS/973737/PAYMENT",
+    "amount": 600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:281",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-10",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 191.19,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:264",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-10",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD PUNE",
+    "amount": 391.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:787",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-11",
+    "merchant_raw": "UPI/PRIYA5572@OKAXIS/213059/PAYMENT",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:407",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-11",
+    "merchant_raw": "NEFT-AMAZONSELLER-8768-RTGS",
+    "amount": 1507.79,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:437",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-11",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 330.82,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:769",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-13",
+    "merchant_raw": "UPI/ARJUN8938@OKHDFCBANK/815636/PAYMENT",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:310",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-13",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP GURGAON",
+    "amount": 2440,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:413",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-13",
+    "merchant_raw": "UPI/IRCTCUPI/305154/PAYMENT",
+    "amount": 2500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:568",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-14",
+    "merchant_raw": "UPI/UBERINDIA/259023/PAYMENT",
+    "amount": 421.93,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:416",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-14",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:7",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-14",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 538.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:97",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-15",
+    "merchant_raw": "UPI/MAHADISCOM/311362/PAYMENT",
+    "amount": 1023.5,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:243",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-15",
+    "merchant_raw": "UPI/SWIGGYUPI/892098/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:326",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-16",
+    "merchant_raw": "IMPS-P2A-323981-ROHIT SHARMA",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:778",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-17",
+    "merchant_raw": "EMI HDBFS 570432",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:189",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-18",
+    "merchant_raw": "UPI/ZOMATO/551273/PAYMENT",
+    "amount": 233.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:589",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-19",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL PUNE",
+    "amount": 800,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:317",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-19",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:43",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-19",
+    "merchant_raw": "UPI/UBERINDIA/499747/PAYMENT",
+    "amount": 151.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:570",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-20",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 150158",
+    "amount": 4935.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:225",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-20",
+    "merchant_raw": "IMPS-P2A-717366-ROHIT SHARMA",
+    "amount": 450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:643",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-21",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP MUMBAI",
+    "amount": 910,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:563",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-21",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:79",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-22",
+    "merchant_raw": "UPI/SWIGGY/978147/PAYMENT",
+    "amount": 448.58,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:541",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-24",
+    "merchant_raw": "IMPS-P2A-242769-ROHIT SHARMA",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:719",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-26",
+    "merchant_raw": "ATM WDL HYDERABAD 424660",
+    "amount": 2500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:266",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-26",
+    "merchant_raw": "UPI/SWIGGY/835297/PAYMENT",
+    "amount": 280.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:727",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-26",
+    "merchant_raw": "NEFT-AMAZONSELLER-7145-RTGS",
+    "amount": 565.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:747",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-29",
+    "merchant_raw": "UPI/SWIGGYUPI/539242/PAY",
+    "amount": 372.24,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:409",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-29",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP CHENNAI",
+    "amount": 1240,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:734",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-30",
+    "merchant_raw": "UPI/MEGHA2650@YBL/663081/PAYMENT",
+    "amount": 1450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:631",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-08-31",
+    "merchant_raw": "UPI/SWIGGY/186049/PAYMENT",
+    "amount": 284.89,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:661",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-02",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:118",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-2304-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:154",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-02",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP GURGAON",
+    "amount": 1340,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:309",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-02",
+    "merchant_raw": "UPI/SWIGGY/747937/PAYMENT",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:360",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-03",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP GURGAON",
+    "amount": 660,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:457",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-03",
+    "merchant_raw": "ATM WDL GURGAON 533478",
+    "amount": 2500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:767",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-04",
+    "merchant_raw": "NEFT-SUNITA PG-1211-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:136",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-04",
+    "merchant_raw": "UPI/PRIYA7805@OKAXIS/685425/PAYMENT",
+    "amount": 200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:379",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-06",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 574007",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:172",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-07",
+    "merchant_raw": "NEFT-SPOTIFYIN-1676-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:26",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-07",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 208.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:657",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-08",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:208",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-08",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:62",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-09",
+    "merchant_raw": "UPI/IRCTCUPI/372618/PAYMENT",
+    "amount": 1318.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:434",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-09",
+    "merchant_raw": "NEFT-AMAZONSELLER-5740-RTGS",
+    "amount": 2128.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:574",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-10",
+    "merchant_raw": "ATM WDL PUNE 161878",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:469",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-11",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 322.91,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:410",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-12",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 282.69,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:622",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-12",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:8",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-13",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 467.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:656",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-14",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 538.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:98",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-16",
+    "merchant_raw": "MSEB BILL PAYMENT 200354",
+    "amount": 738.49,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:244",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-17",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 717640",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:190",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-17",
+    "merchant_raw": "UPI/AMAZONPAY/803860/PAYMENT",
+    "amount": 1863.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:352",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-17",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 305.06,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:467",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-17",
+    "merchant_raw": "UPI/ZOMATO/506957/PAYMENT",
+    "amount": 227.46,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:733",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-17",
+    "merchant_raw": "UPI/SWIGGYUPI/539299/PAY",
+    "amount": 245.25,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:748",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-18",
+    "merchant_raw": "NEFT-AMAZONSELLER-8136-RTGS",
+    "amount": 1604.53,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:511",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-19",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 6040",
+    "amount": 2873.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:226",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-19",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:44",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-20",
+    "merchant_raw": "UPI/BHARATPETRO/210905/PAYMENT",
+    "amount": 1550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:761",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-21",
+    "merchant_raw": "IMPS-P2A-882751-ROHIT SHARMA",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:791",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-23",
+    "merchant_raw": "ATM WDL PUNE 562130",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:418",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-24",
+    "merchant_raw": "NEFT-OPENAILLC-8379-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:80",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-27",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL PUNE",
+    "amount": 1380,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:302",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-27",
+    "merchant_raw": "NEFT-AMAZONSELLER-6676-RTGS",
+    "amount": 1528.54,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:626",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-27",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP MUMBAI",
+    "amount": 2220,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:774",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-28",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 269.28,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:472",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-09-28",
+    "merchant_raw": "UPI/UBERINDIA/809429/PAYMENT",
+    "amount": 218.77,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:554",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-01",
+    "merchant_raw": "UPI/ZOMATO/395889/PAYMENT",
+    "amount": 452.22,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:376",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-02",
+    "merchant_raw": "UPI/JIORECHARGE/590266/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:119",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-02",
+    "merchant_raw": "IMPS-P2A-500093-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:155",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-02",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 1691.46,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:399",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-03",
+    "merchant_raw": "UPI/ZOMATO/352294/PAYMENT",
+    "amount": 663.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:431",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-04",
+    "merchant_raw": "IMPS-P2A-460030-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:137",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-05",
+    "merchant_raw": "UPI/SPOTIFYINDIA/594749/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:27",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-05",
+    "merchant_raw": "UPI/SWIGGY/672344/PAYMENT",
+    "amount": 254.75,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:382",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-05",
+    "merchant_raw": "UPI/SWIGGY/266717/PAYMENT",
+    "amount": 295.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:575",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-05",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD GURGAON",
+    "amount": 400.84,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:759",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-06",
+    "merchant_raw": "UPI/ARJUN8866@OKHDFCBANK/698121/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:447",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "NACH-BAJAJ FINSERV-3078",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:173",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "NACH-SIP ZERODHA-2123-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:209",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 308.98,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:532",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN PUNE",
+    "amount": 4358.24,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:550",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD HYDERABAD",
+    "amount": 391.35,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:571",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-07",
+    "merchant_raw": "UPI/BHARATPETRO/654325/PAYMENT",
+    "amount": 1060,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:598",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-08",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/219072/PAYMENT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:63",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-09",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL HYDERABAD",
+    "amount": 880,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:347",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-09",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 162.49,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:423",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-09",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 490.91,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:448",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-10",
+    "merchant_raw": "UPI/ZOMATO/200789/PAYMENT",
+    "amount": 631.26,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:439",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-10",
+    "merchant_raw": "IMPS-P2A-230472-ROHIT SHARMA",
+    "amount": 600,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:772",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-11",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/143368/PAYMENT",
+    "amount": 199.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:9",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-12",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 272.58,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:460",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-14",
+    "merchant_raw": "NEFT-AMAZONSELLER-8493-RTGS",
+    "amount": 2186.82,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:286",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-15",
+    "merchant_raw": "UPI/IRCTCUPI/420110/PAYMENT",
+    "amount": 1569.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:403",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-15",
+    "merchant_raw": "UPI/CANVAPTY/423141/PAYMENT",
+    "amount": 582.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:99",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-16",
+    "merchant_raw": "UPI/MAHADISCOM/177550/PAYMENT",
+    "amount": 766.25,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:245",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-17",
+    "merchant_raw": "EMI HDBFS 822937",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:191",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-17",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD PUNE",
+    "amount": 599.01,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:397",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-17",
+    "merchant_raw": "UPI/JIOSAAVN/739788/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:45",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-17",
+    "merchant_raw": "UPI/PRIYA2898@OKAXIS/817746/PAYMENT",
+    "amount": 700,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:724",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-21",
+    "merchant_raw": "UPI/SWIGGYUPI/221637/PAY",
+    "amount": 447.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:440",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-21",
+    "merchant_raw": "UPI/SWIGGY/218562/PAYMENT",
+    "amount": 342.87,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:573",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-22",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 313852",
+    "amount": 6908.11,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:227",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-24",
+    "merchant_raw": "UPI/ZOMATO/668934/PAYMENT",
+    "amount": 248.51,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:308",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-24",
+    "merchant_raw": "UPI/ARJUN4769@OKHDFCBANK/851557/PAYMENT",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:663",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-24",
+    "merchant_raw": "UPI/UBERINDIA/578282/PAYMENT",
+    "amount": 317.22,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:718",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-24",
+    "merchant_raw": "UPI/OPENAI/773759/PAYMENT",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:81",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-25",
+    "merchant_raw": "NEFT-AMAZONSELLER-3115-RTGS",
+    "amount": 1402.49,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:706",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-26",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 600.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:609",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-26",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 311.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:758",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-27",
+    "merchant_raw": "UPI/PRIYA6225@OKAXIS/861679/PAYMENT",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:604",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-29",
+    "merchant_raw": "UPI/BHARATPETRO/973798/PAYMENT",
+    "amount": 1220,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:444",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-30",
+    "merchant_raw": "ATM WDL MUMBAI 786307",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:662",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-31",
+    "merchant_raw": "UPI/ZOMATO/653285/PAYMENT",
+    "amount": 517.93,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:486",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-10-31",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 288.04,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:562",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-01",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:120",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-01",
+    "merchant_raw": "UPI/UBERINDIA/104980/PAYMENT",
+    "amount": 235.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:288",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-01",
+    "merchant_raw": "UPI/ZOMATO/932874/PAYMENT",
+    "amount": 306.67,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:483",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-9963-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:156",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-02",
+    "merchant_raw": "UPI/SWIGGYUPI/219169/PAY",
+    "amount": 372.93,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:546",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-03",
+    "merchant_raw": "UPI/UBERINDIA/535413/PAYMENT",
+    "amount": 103.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:788",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-05",
+    "merchant_raw": "NEFT-SUNITA PG-8945-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:138",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-05",
+    "merchant_raw": "UPI/UBERINDIA/832818/PAYMENT",
+    "amount": 550.13,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:415",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-05",
+    "merchant_raw": "ATM WDL CHENNAI 634260",
+    "amount": 10000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:497",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-06",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 776431",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:174",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-06",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:28",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-06",
+    "merchant_raw": "IMPS-P2A-941358-ROHIT SHARMA",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:616",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-07",
+    "merchant_raw": "UPI/MEGHA9962@YBL/570213/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:531",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-07",
+    "merchant_raw": "UPI/MEGHA2818@YBL/921267/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:754",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-08",
+    "merchant_raw": "NEFT-AMAZONSELLER-2194-RTGS",
+    "amount": 2287.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:270",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-08",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:64",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-09",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:210",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-09",
+    "merchant_raw": "UPI/ZOMATO/547091/PAYMENT",
+    "amount": 435.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:402",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-12",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:10",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-13",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN DELHI",
+    "amount": 2649.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:721",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-14",
+    "merchant_raw": "UPI/PRIYA4521@OKAXIS/957350/PAYMENT",
+    "amount": 850,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:358",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-14",
+    "merchant_raw": "UPI/SWIGGYUPI/792290/PAY",
+    "amount": 226.97,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:474",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-16",
+    "merchant_raw": "MSEB BILL PAYMENT 466422",
+    "amount": 977.37,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:246",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-16",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 1907.64,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:455",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-17",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 582.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:100",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-18",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 202053",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:192",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-18",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:46",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-19",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP GURGAON",
+    "amount": 1370,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:369",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-21",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 5726",
+    "amount": 6188.28,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:228",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-21",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:82",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-22",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 215.19,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:760",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-23",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 229.77,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:588",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-26",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD HYDERABAD",
+    "amount": 287.47,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:327",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-26",
+    "merchant_raw": "UPI/UBERINDIA/777171/PAYMENT",
+    "amount": 328.97,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:548",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-26",
+    "merchant_raw": "UPI/SWIGGYUPI/559931/PAY",
+    "amount": 262.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:629",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-29",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 323.32,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:572",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-29",
+    "merchant_raw": "ATM CASH 321377 PUNE",
+    "amount": 10000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:745",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-11-29",
+    "merchant_raw": "UPI/MEGHA3402@YBL/573402/PAYMENT",
+    "amount": 250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:776",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-01",
+    "merchant_raw": "UPI/AMAZONPAY/432690/PAYMENT",
+    "amount": 985.58,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:373",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-02",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:121",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-02",
+    "merchant_raw": "UPI/UBERINDIA/998538/PAYMENT",
+    "amount": 126.75,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:722",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-03",
+    "merchant_raw": "IMPS-P2A-795231-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:157",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-03",
+    "merchant_raw": "ATM WDL GURGAON 147332",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:654",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-04",
+    "merchant_raw": "IMPS-P2A-586922-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:139",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-04",
+    "merchant_raw": "ATM WDL CHENNAI 290043",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:495",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-04",
+    "merchant_raw": "UPI/SWIGGY/320699/PAYMENT",
+    "amount": 321.21,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:608",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-05",
+    "merchant_raw": "NACH-BAJAJ FINSERV-4341",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:175",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-05",
+    "merchant_raw": "NEFT-SPOTIFYIN-6216-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:29",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-06",
+    "merchant_raw": "UPI/SWIGGY/312953/PAYMENT",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:387",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-07",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:65",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-08",
+    "merchant_raw": "NACH-SIP ZERODHA-8632-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:211",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-08",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 295.46,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:732",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-09",
+    "merchant_raw": "UPI/PRIYA5067@OKAXIS/107542/PAYMENT",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:429",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-10",
+    "merchant_raw": "UPI/ZOMATO/456485/PAYMENT",
+    "amount": 424.76,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:305",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-10",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 2620.32,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:488",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-10",
+    "merchant_raw": "UPI/SWIGGY/714234/PAYMENT",
+    "amount": 261.1,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:763",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-11",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 166.96,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:454",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-12",
+    "merchant_raw": "UPI/ZOMATO/745905/PAYMENT",
+    "amount": 299.88,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:406",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-13",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:11",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-13",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 530.88,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:432",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-13",
+    "merchant_raw": "ATM WDL PUNE 115835",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:438",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-13",
+    "merchant_raw": "UPI/ZOMATO/776948/PAYMENT",
+    "amount": 487.64,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:623",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-13",
+    "merchant_raw": "NEFT-AMAZONSELLER-1101-RTGS",
+    "amount": 1055.81,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:635",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-14",
+    "merchant_raw": "UPI/MAHADISCOM/583339/PAYMENT",
+    "amount": 956.49,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:247",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-16",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 582.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:101",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-16",
+    "merchant_raw": "EMI HDBFS 593883",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:193",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-19",
+    "merchant_raw": "UPI/ARJUN1594@OKHDFCBANK/333895/PAYMENT",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:507",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-19",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 600.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:637",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-20",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:47",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-21",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 358238",
+    "amount": 3544.52,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:229",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-21",
+    "merchant_raw": "NEFT-OPENAILLC-5005-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:83",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-24",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL MUMBAI",
+    "amount": 1040,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:278",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-25",
+    "merchant_raw": "UPI/UBERINDIA/560024/PAYMENT",
+    "amount": 294.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:324",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-26",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 143.46,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:427",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-26",
+    "merchant_raw": "IMPS-P2A-956448-ROHIT SHARMA",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:470",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-27",
+    "merchant_raw": "UPI/BHARATPETRO/460206/PAYMENT",
+    "amount": 1010,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:336",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-27",
+    "merchant_raw": "UPI/ZOMATO/951522/PAYMENT",
+    "amount": 323.18,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:723",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2025-12-28",
+    "merchant_raw": "UPI/AMAZONPAY/414302/PAYMENT",
+    "amount": 1516.96,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:515",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-01",
+    "merchant_raw": "UPI/JIORECHARGE/248354/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:122",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-02",
+    "merchant_raw": "NEFT-SUNITA PG-1675-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:140",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-1609-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:158",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-02",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD CHENNAI",
+    "amount": 430.4,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:466",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-04",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 965987",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:176",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-04",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 250.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:712",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-05",
+    "merchant_raw": "UPI/SPOTIFYINDIA/915797/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:30",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-05",
+    "merchant_raw": "UPI/PRIYA1503@OKAXIS/214118/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:318",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-09",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 194.5,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:463",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-09",
+    "merchant_raw": "UPI/PRIYA3115@OKAXIS/323936/PAYMENT",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:627",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-10",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/588129/PAYMENT",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:12",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-10",
+    "merchant_raw": "UPI/AMAZONPAY/302042/PAYMENT",
+    "amount": 1865.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:633",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-10",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/200466/PAYMENT",
+    "amount": 129.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:66",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-10",
+    "merchant_raw": "UPI/MEGHA3400@YBL/963607/PAYMENT",
+    "amount": 1900,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:737",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-10",
+    "merchant_raw": "ATM WDL CHENNAI 682595",
+    "amount": 5000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:786",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-11",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:212",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-11",
+    "merchant_raw": "UPI/PRIYA2942@OKAXIS/858298/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:335",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-13",
+    "merchant_raw": "UPI/PRIYA5717@OKAXIS/876032/PAYMENT",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:621",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-14",
+    "merchant_raw": "MSEB BILL PAYMENT 145431",
+    "amount": 479.23,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:248",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-14",
+    "merchant_raw": "UPI/ZOMATO/683857/PAYMENT",
+    "amount": 208.01,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:283",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-15",
+    "merchant_raw": "UPI/CANVAPTY/348626/PAYMENT",
+    "amount": 582.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:102",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-17",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 909569",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:194",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-18",
+    "merchant_raw": "NEFT-AMAZONSELLER-7259-RTGS",
+    "amount": 4500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:275",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-18",
+    "merchant_raw": "NEFT-AMAZONSELLER-7910-RTGS",
+    "amount": 1147.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:586",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-19",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 3445",
+    "amount": 4498.18,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:230",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-19",
+    "merchant_raw": "UPI/JIOSAAVN/206652/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:48",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-19",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 347.81,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:740",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-19",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP PUNE",
+    "amount": 1190,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:757",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-20",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD HYDERABAD",
+    "amount": 467.12,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:367",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-21",
+    "merchant_raw": "UPI/ARJUN7197@OKHDFCBANK/661710/PAYMENT",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:330",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-21",
+    "merchant_raw": "UPI/OPENAI/365044/PAYMENT",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:84",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-22",
+    "merchant_raw": "UPI/BHARATPETRO/382849/PAYMENT",
+    "amount": 2090,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:257",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-22",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 122.45,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:282",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-22",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 452.64,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:545",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-22",
+    "merchant_raw": "NEFT-AMAZONSELLER-8964-RTGS",
+    "amount": 2230.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:729",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-23",
+    "merchant_raw": "UPI/SWIGGYUPI/443547/PAY",
+    "amount": 382.69,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:396",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-23",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 1456.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:493",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-23",
+    "merchant_raw": "UPI/SWIGGY/968554/PAYMENT",
+    "amount": 517.39,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:561",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-23",
+    "merchant_raw": "NEFT-AMAZONSELLER-8235-RTGS",
+    "amount": 646.08,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:750",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-24",
+    "merchant_raw": "UPI/MEGHA2146@YBL/648869/PAYMENT",
+    "amount": 1650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:314",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-24",
+    "merchant_raw": "UPI/BHARATPETRO/318840/PAYMENT",
+    "amount": 920,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:600",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-24",
+    "merchant_raw": "UPI/SWIGGY/426029/PAYMENT",
+    "amount": 193.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:617",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-24",
+    "merchant_raw": "UPI/UBERINDIA/819228/PAYMENT",
+    "amount": 501.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:756",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-25",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH GURGAON",
+    "amount": 340.48,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:365",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-25",
+    "merchant_raw": "UPI/SWIGGY/615865/PAYMENT",
+    "amount": 174.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:492",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-25",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 547.71,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:726",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-27",
+    "merchant_raw": "ATM CASH 644542 BENGALURU",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:770",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-28",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD",
+    "amount": 1300.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:109",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-28",
+    "merchant_raw": "UPI/IRCTCUPI/175661/PAYMENT",
+    "amount": 1334.38,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:614",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-29",
+    "merchant_raw": "ATM WDL MUMBAI 820871",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:716",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-30",
+    "merchant_raw": "UPI/UBERINDIA/613093/PAYMENT",
+    "amount": 207.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:512",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-31",
+    "merchant_raw": "UPI/SWIGGYUPI/717463/PAY",
+    "amount": 257.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:295",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-31",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 322.51,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:749",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-01-31",
+    "merchant_raw": "UPI/AMAZONPAY/634721/PAYMENT",
+    "amount": 2775.46,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:782",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-01",
+    "merchant_raw": "UPI/IRCTCUPI/657814/PAYMENT",
+    "amount": 948.58,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:255",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-01",
+    "merchant_raw": "NEFT-AMAZONSELLER-1873-RTGS",
+    "amount": 2163.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:256",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-02",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:123",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-02",
+    "merchant_raw": "IMPS-P2A-629418-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:159",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-03",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 966.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:720",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-04",
+    "merchant_raw": "IMPS-P2A-494117-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:141",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-04",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:31",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-04",
+    "merchant_raw": "NEFT-AMAZONSELLER-4200-RTGS",
+    "amount": 1431.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:710",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-3388",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:177",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-06",
+    "merchant_raw": "UPI/PRIYA7674@OKAXIS/612306/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:366",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-07",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 590.77,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:272",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-08",
+    "merchant_raw": "NACH-SIP ZERODHA-8186-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:213",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-08",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:544",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-09",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 149.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:67",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-11",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:13",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-11",
+    "merchant_raw": "UPI/PRIYA9406@OKAXIS/960767/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:408",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-12",
+    "merchant_raw": "UPI/MAHADISCOM/212812/PAYMENT",
+    "amount": 573.48,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:249",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-12",
+    "merchant_raw": "UPI/SWIGGY/557985/PAYMENT",
+    "amount": 275.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:355",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-13",
+    "merchant_raw": "ATM CASH 742557 MUMBAI",
+    "amount": 7500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:334",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-13",
+    "merchant_raw": "IMPS-P2A-471799-ROHIT SHARMA",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:730",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-14",
+    "merchant_raw": "NEFT-AMAZONSELLER-5972-RTGS",
+    "amount": 2218.76,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:342",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-15",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 582.03,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:103",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-15",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 435.71,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:579",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-17",
+    "merchant_raw": "EMI HDBFS 204932",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:195",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-17",
+    "merchant_raw": "UPI/SWIGGY/493754/PAYMENT",
+    "amount": 260.4,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:377",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-17",
+    "merchant_raw": "UPI/SWIGGY/171550/PAYMENT",
+    "amount": 294.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:388",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-17",
+    "merchant_raw": "UPI/UBERINDIA/485577/PAYMENT",
+    "amount": 196.27,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:389",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-17",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 281.39,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:417",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-18",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL PUNE",
+    "amount": 2700,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:634",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-19",
+    "merchant_raw": "IMPS-P2A-873241-ROHIT SHARMA",
+    "amount": 1250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:261",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-19",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS CHENNAI",
+    "amount": 189.5,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:433",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-19",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:49",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-20",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 173352",
+    "amount": 4381.22,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:231",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-20",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN CHENNAI",
+    "amount": 1202.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:294",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-21",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 482.45,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:412",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-23",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN PUNE",
+    "amount": 583.16,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:536",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-23",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:85",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-24",
+    "merchant_raw": "IMPS-P2A-762001-ROHIT SHARMA",
+    "amount": 500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:765",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 363.99,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:341",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "UPI/SWIGGYUPI/387747/PAY",
+    "amount": 266.9,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:465",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 514.85,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:501",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "UPI/MEGHA9206@YBL/662195/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:526",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 221.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:595",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "UPI/UBERINDIA/595541/PAYMENT",
+    "amount": 295.29,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:602",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-25",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL DELHI",
+    "amount": 1790,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:707",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-26",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP DELHI",
+    "amount": 880,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:459",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-02-26",
+    "merchant_raw": "UPI/PRIYA9243@OKAXIS/861601/PAYMENT",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:691",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-02",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:124",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-02",
+    "merchant_raw": "NEFT-PARENT TRANSFER-1543-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:160",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-02",
+    "merchant_raw": "IMPS-P2A-797250-ROHIT SHARMA",
+    "amount": 400,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:491",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-03",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP MUMBAI",
+    "amount": 1270,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:260",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-04",
+    "merchant_raw": "NEFT-SUNITA PG-1931-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:142",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-05",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 307767",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:178",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-05",
+    "merchant_raw": "NEFT-SPOTIFYIN-9355-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:32",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-07",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH HYDERABAD",
+    "amount": 192.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:502",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-07",
+    "merchant_raw": "NEFT-AMAZONSELLER-9401-RTGS",
+    "amount": 517.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:739",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-09",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:214",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-10",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 149.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:68",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-12",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:14",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-12",
+    "merchant_raw": "UPI/ARJUN1051@OKHDFCBANK/749185/PAYMENT",
+    "amount": 1300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:258",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-14",
+    "merchant_raw": "MSEB BILL PAYMENT 526726",
+    "amount": 772.1,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:250",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-15",
+    "merchant_raw": "UPI/ARJUN4209@OKHDFCBANK/457137/PAYMENT",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:478",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-16",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 1109.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:517",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-17",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 628.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:104",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-18",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 333608",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:196",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-18",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:50",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-18",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL BENGALURU",
+    "amount": 1760,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:587",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-18",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP CHENNAI",
+    "amount": 1350,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:639",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-19",
+    "merchant_raw": "UPI/IRCTCUPI/195954/PAYMENT",
+    "amount": 926.02,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:319",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-19",
+    "merchant_raw": "UPI/SWIGGY/585978/PAYMENT",
+    "amount": 318.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:499",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-21",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 5572",
+    "amount": 7235.61,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:232",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-21",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP CHENNAI",
+    "amount": 2040,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:425",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-21",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 287.48,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:793",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-21",
+    "merchant_raw": "NEFT-OPENAILLC-8757-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:86",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-23",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN BENGALURU",
+    "amount": 899.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:400",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-23",
+    "merchant_raw": "IMPS-P2A-913725-ROHIT SHARMA",
+    "amount": 1250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:780",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-25",
+    "merchant_raw": "UPI/AMAZONPAY/104812/PAYMENT",
+    "amount": 2123.16,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:676",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-27",
+    "merchant_raw": "NEFT-AMAZONSELLER-8980-RTGS",
+    "amount": 4500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:781",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-28",
+    "merchant_raw": "UPI/UBERINDIA/500073/PAYMENT",
+    "amount": 379.2,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:348",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-28",
+    "merchant_raw": "NEFT-AMAZONSELLER-8760-RTGS",
+    "amount": 708.68,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:540",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-29",
+    "merchant_raw": "IMPS-P2A-962407-ROHIT SHARMA",
+    "amount": 550,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:269",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-29",
+    "merchant_raw": "UPI/SWIGGYUPI/209521/PAY",
+    "amount": 256.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:395",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-29",
+    "merchant_raw": "UPI/BHARATPETRO/916873/PAYMENT",
+    "amount": 1140,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:450",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-29",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN PUNE",
+    "amount": 2478.66,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:703",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-03-31",
+    "merchant_raw": "IMPS-P2A-222216-ROHIT SHARMA",
+    "amount": 750,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:498",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-02",
+    "merchant_raw": "UPI/JIORECHARGE/898726/PAYMENT",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:125",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-03",
+    "merchant_raw": "IMPS-P2A-968489-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:161",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-03",
+    "merchant_raw": "IMPS-P2A-455992-ROHIT SHARMA",
+    "amount": 300,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:322",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-04",
+    "merchant_raw": "IMPS-P2A-486295-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:143",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-04",
+    "merchant_raw": "UPI/SWIGGY/373617/PAYMENT",
+    "amount": 420.38,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:542",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-04",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 370.62,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:704",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-04",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL CHENNAI",
+    "amount": 2520,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:713",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-05",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 354.65,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:300",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-05",
+    "merchant_raw": "UPI/SPOTIFYINDIA/396140/PAYMENT",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:33",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-05",
+    "merchant_raw": "UPI/ZOMATO/316538/PAYMENT",
+    "amount": 649.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:650",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-2064",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:179",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-06",
+    "merchant_raw": "UPI/PRIYA3757@OKAXIS/238480/PAYMENT",
+    "amount": 450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:556",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-08",
+    "merchant_raw": "NACH-SIP ZERODHA-9720-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:215",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-08",
+    "merchant_raw": "UPI/SWIGGY/431809/PAYMENT",
+    "amount": 222.74,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:451",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-08",
+    "merchant_raw": "UPI/GOOGLEYOUTUBE/191183/PAYMENT",
+    "amount": 149.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:69",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-11",
+    "merchant_raw": "UPI/MEGHA6600@YBL/117438/PAYMENT",
+    "amount": 1250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:653",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-12",
+    "merchant_raw": "UPI/NETFLIX BILLDESK/518405/PAYMENT",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:15",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-14",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH DELHI",
+    "amount": 250.3,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:518",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-14",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD HYDERABAD",
+    "amount": 676.98,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:611",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-15",
+    "merchant_raw": "UPI/MAHADISCOM/301232/PAYMENT",
+    "amount": 456.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:251",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-15",
+    "merchant_raw": "UPI/ZOMATO/958786/PAYMENT",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:701",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-16",
+    "merchant_raw": "UPI/CANVAPTY/113612/PAYMENT",
+    "amount": 628.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:105",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-16",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS GURGAON",
+    "amount": 327.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:525",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-17",
+    "merchant_raw": "EMI HDBFS 414515",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:197",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-18",
+    "merchant_raw": "UPI/JIOSAAVN/803275/PAYMENT",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:51",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-19",
+    "merchant_raw": "NEFT-AMAZONSELLER-7020-RTGS",
+    "amount": 4455.91,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:311",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-20",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN HYDERABAD",
+    "amount": 2119.54,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:371",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-20",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 750.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:744",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-20",
+    "merchant_raw": "UPI/ARJUN2963@OKHDFCBANK/814528/PAYMENT",
+    "amount": 1450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:762",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-20",
+    "merchant_raw": "UPI/OPENAI/614304/PAYMENT",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:87",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-21",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 163983",
+    "amount": 9839.62,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:233",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-21",
+    "merchant_raw": "UPI/AMAZONPAY/165885/PAYMENT",
+    "amount": 2550.64,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:667",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-22",
+    "merchant_raw": "UPI/UBERINDIA/421813/PAYMENT",
+    "amount": 207.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:401",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-22",
+    "merchant_raw": "UPI/ARJUN6048@OKHDFCBANK/239683/PAYMENT",
+    "amount": 1400,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:646",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-24",
+    "merchant_raw": "POS 8821XXXX1102 INDIAN OIL PUNE",
+    "amount": 1230,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:285",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-25",
+    "merchant_raw": "UPI/ZOMATO/186285/PAYMENT",
+    "amount": 384.41,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:315",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-25",
+    "merchant_raw": "UPI/BHARATPETRO/230678/PAYMENT",
+    "amount": 780,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:456",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-26",
+    "merchant_raw": "NEFT-AMAZONSELLER-5921-RTGS",
+    "amount": 1331.86,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:715",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-26",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 286.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:755",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-04-30",
+    "merchant_raw": "ACH-D- RELIANCE JIO INFOCOMM",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:126",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-01",
+    "merchant_raw": "NEFT-AMAZONSELLER-4748-RTGS",
+    "amount": 2477.81,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:665",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-01",
+    "merchant_raw": "UPI/ZOMATO/551482/PAYMENT",
+    "amount": 367.11,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:768",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-02",
+    "merchant_raw": "NEFT-SUNITA PG-3544-RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:144",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-02",
+    "merchant_raw": "UPI/PRIYA6708@OKAXIS/156037/PAYMENT",
+    "amount": 450,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:489",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-02",
+    "merchant_raw": "UPI/UBERINDIA/909585/PAYMENT",
+    "amount": 600.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:582",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-03",
+    "merchant_raw": "NEFT-AMAZONSELLER-1446-RTGS",
+    "amount": 3174.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:522",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-04",
+    "merchant_raw": "NEFT-PARENT TRANSFER-1074-MONTHLY",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:162",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-06",
+    "merchant_raw": "ACH-D- SPOTIFY INDIA LLP",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:34",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-06",
+    "merchant_raw": "UPI/ARJUN7935@OKHDFCBANK/122766/PAYMENT",
+    "amount": 250,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:576",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-07",
+    "merchant_raw": "ACH-D- ZERODHA COIN SIP",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:216",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-07",
+    "merchant_raw": "UPI/SWIGGY/631417/PAYMENT",
+    "amount": 423.96,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:307",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-07",
+    "merchant_raw": "UPI/ARJUN8207@OKHDFCBANK/776051/PAYMENT",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:569",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-07",
+    "merchant_raw": "ACH-D- GOOGLE INDIA PVT LTD YT",
+    "amount": 149.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:70",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-08",
+    "merchant_raw": "ACH-D- BAJAJFIN EMI 419682",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:180",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-08",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 384.99,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:357",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-08",
+    "merchant_raw": "UPI/SWIGGYUPI/394181/PAY",
+    "amount": 302.93,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:436",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-09",
+    "merchant_raw": "UPI/AMAZONPAY/244486/PAYMENT",
+    "amount": 4500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:306",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-09",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD DELHI",
+    "amount": 409.85,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:559",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-10",
+    "merchant_raw": "ACH-D- NETFLIX ENTERTAINMENT SERVICES",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:16",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-11",
+    "merchant_raw": "UPI/SWIGGYUPI/241250/PAY",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:672",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-13",
+    "merchant_raw": "ACH-D- CANVA PTY LTD",
+    "amount": 628.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:106",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-13",
+    "merchant_raw": "MSEB BILL PAYMENT 364856",
+    "amount": 677.32,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:252",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-13",
+    "merchant_raw": "NEFT-AMAZONSELLER-3712-RTGS",
+    "amount": 1086.15,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:659",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-14",
+    "merchant_raw": "UPI/BHARATPETRO/985983/PAYMENT",
+    "amount": 1920,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:555",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-15",
+    "merchant_raw": "ACH-D- HDB FINANCIAL EMI 877721",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:198",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-15",
+    "merchant_raw": "NEFT-AMAZONSELLER-8802-RTGS",
+    "amount": 1153.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:296",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-15",
+    "merchant_raw": "UPI/MEGHA2093@YBL/813953/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:513",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-17",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS PUNE",
+    "amount": 388.01,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:580",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-18",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 3048.34,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:274",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-18",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 214.92,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:372",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-18",
+    "merchant_raw": "UPI/SWIGGYUPI/705608/PAY",
+    "amount": 593.09,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:798",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-19",
+    "merchant_raw": "ACH-D- SAAVN MEDIA PVT LTD",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:52",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-22",
+    "merchant_raw": "CC PAYMENT AUTOPAY ICICI 9575",
+    "amount": 7025.61,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:234",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-22",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 2368.63,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:790",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-22",
+    "merchant_raw": "POS 8821XXXX3310 OPENAI.COM SAN FRANCISCO",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:88",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-23",
+    "merchant_raw": "UPI/SWIGGYUPI/287039/PAY",
+    "amount": 352.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:331",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-23",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 296.31,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:500",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-24",
+    "merchant_raw": "UPI/ZOMATO/783068/PAYMENT",
+    "amount": 384.62,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:291",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-25",
+    "merchant_raw": "UPI/ZOMATO/290606/PAYMENT",
+    "amount": 329.5,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:696",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-26",
+    "merchant_raw": "UPI/SWIGGYUPI/290833/PAY",
+    "amount": 232.54,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:506",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-26",
+    "merchant_raw": "IMPS-P2A-987924-ROHIT SHARMA",
+    "amount": 350,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:687",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-26",
+    "merchant_raw": "POS 8821XXXX1102 HP PETRO PUMP MUMBAI",
+    "amount": 860,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:773",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-27",
+    "merchant_raw": "UPI/MEGHA3494@YBL/504804/PAYMENT",
+    "amount": 1700,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:679",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-28",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 241.79,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:446",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-29",
+    "merchant_raw": "UPI/ARJUN8337@OKHDFCBANK/805169/PAYMENT",
+    "amount": 1800,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:528",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-30",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS BENGALURU",
+    "amount": 268.86,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:464",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-05-31",
+    "merchant_raw": "UPI/BHARATPETRO/848802/PAYMENT",
+    "amount": 3000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:651",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-01",
+    "merchant_raw": "IMPS-P2A-527925-SURESH KALA",
+    "amount": 15000,
+    "direction": "credit",
+    "source": "demo",
+    "source_ref": "demo:student:163",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-01",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 331.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:419",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-01",
+    "merchant_raw": "UPI/AMAZONPAY/434791/PAYMENT",
+    "amount": 1282.22,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:692",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-02",
+    "merchant_raw": "UPI/PRIYA3172@OKAXIS/280494/PAYMENT",
+    "amount": 650,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:607",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-02",
+    "merchant_raw": "POS 8821XXXX1102 IRCTC NEW DELHI",
+    "amount": 846.81,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:625",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-04",
+    "merchant_raw": "POS 8821XXXX3310 JIO.COM MUMBAI",
+    "amount": 299.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:127",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-05",
+    "merchant_raw": "IMPS-P2A-763599-PG HOSTEL RENT",
+    "amount": 8500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:145",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-05",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH PUNE",
+    "amount": 253.07,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:321",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-05",
+    "merchant_raw": "NEFT-SPOTIFYIN-1952-RTGS",
+    "amount": 59.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:35",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-05",
+    "merchant_raw": "UPI/SWIGGY/951907/PAYMENT",
+    "amount": 575.55,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:475",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-06",
+    "merchant_raw": "NACH-BAJAJ FINSERV-5516",
+    "amount": 2499,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:181",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-06",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 382.2,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:619",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-07",
+    "merchant_raw": "UPI/UBERINDIA/513994/PAYMENT",
+    "amount": 177.28,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:543",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-07",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 341.33,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:630",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-07",
+    "merchant_raw": "POS 8821XXXX3310 YOUTUBEPREMIUM GURGAON",
+    "amount": 149.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:71",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-08",
+    "merchant_raw": "UPI/AMAZONPAY/913404/PAYMENT",
+    "amount": 1541.38,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:392",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-08",
+    "merchant_raw": "UPI/UBERINDIA/905643/PAYMENT",
+    "amount": 403.02,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:452",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-09",
+    "merchant_raw": "NACH-SIP ZERODHA-9380-MF",
+    "amount": 1000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:217",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-09",
+    "merchant_raw": "IMPS-P2A-729162-ROHIT SHARMA",
+    "amount": 350,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:271",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-09",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS DELHI",
+    "amount": 352.77,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:523",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-10",
+    "merchant_raw": "ATM WDL CHENNAI 368983",
+    "amount": 4500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:378",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-10",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN GURGAON",
+    "amount": 960.22,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:728",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-11",
+    "merchant_raw": "ATM CASH 764734 HYDERABAD",
+    "amount": 4500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:384",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-12",
+    "merchant_raw": "POS 8821XXXX3310 NETFLIX.COM MUMBAI",
+    "amount": 249.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:17",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-12",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 228.38,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:386",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-14",
+    "merchant_raw": "UPI/MAHADISCOM/658039/PAYMENT",
+    "amount": 911.44,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:253",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-14",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 219.72,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:424",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-15",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD BENGALURU",
+    "amount": 633.68,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:332",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-15",
+    "merchant_raw": "UPI/AMAZONPAY/189128/PAYMENT",
+    "amount": 3752.78,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:591",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-16",
+    "merchant_raw": "POS 8821XXXX3310 CANVA.COM SYDNEY",
+    "amount": 628.59,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:107",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-16",
+    "merchant_raw": "NEFT-AMAZONSELLER-8136-RTGS",
+    "amount": 1344.26,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:325",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-18",
+    "merchant_raw": "EMI HDBFS 171608",
+    "amount": 3200,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:199",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH MUMBAI",
+    "amount": 348.69,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:375",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "UPI/AMAZONPAY/938869/PAYMENT",
+    "amount": 4500.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:398",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "POS 8821XXXX3310 JIOSAAVN.COM MUMBAI",
+    "amount": 99.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:53",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "UPI/UBERINDIA/757909/PAYMENT",
+    "amount": 304.49,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:649",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "POS 8821XXXX1102 ZOMATO LTD MUMBAI",
+    "amount": 328.35,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:784",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-19",
+    "merchant_raw": "UPI/PRIYA7412@OKAXIS/533060/PAYMENT",
+    "amount": 2000,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:785",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-20",
+    "merchant_raw": "UPI/SWIGGY/963377/PAYMENT",
+    "amount": 425.3,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:337",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-20",
+    "merchant_raw": "POS 8821XXXX1102 AMAZON.IN HYDERABAD",
+    "amount": 1678.8,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:441",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-21",
+    "merchant_raw": "AUTOPAY CARD PAYMENT 374226",
+    "amount": 2913.85,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:235",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-21",
+    "merchant_raw": "NEFT-AMAZONSELLER-5240-RTGS",
+    "amount": 758.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:276",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-21",
+    "merchant_raw": "UPI/SWIGGYUPI/969904/PAY",
+    "amount": 320.25,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:350",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-22",
+    "merchant_raw": "ATM WDL MUMBAI 323924",
+    "amount": 1500,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:480",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-22",
+    "merchant_raw": "UPI/ARJUN7208@OKHDFCBANK/564499/PAYMENT",
+    "amount": 1700,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:664",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-22",
+    "merchant_raw": "UPI/SWIGGYUPI/438262/PAY",
+    "amount": 231.57,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:794",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-22",
+    "merchant_raw": "NEFT-OPENAILLC-5489-RTGS",
+    "amount": 1999.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:89",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-23",
+    "merchant_raw": "UPI/SWIGGY/710354/PAYMENT",
+    "amount": 409.6,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:380",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-23",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS MUMBAI",
+    "amount": 325.84,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:505",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-24",
+    "merchant_raw": "POS 8821XXXX1102 UBER INDIA SYSTEMS HYDERABAD",
+    "amount": 459.95,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:510",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-25",
+    "merchant_raw": "UPI/UBERINDIA/230832/PAYMENT",
+    "amount": 165.82,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:530",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-27",
+    "merchant_raw": "UPI/UBERINDIA/196797/PAYMENT",
+    "amount": 414.61,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:766",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-28",
+    "merchant_raw": "IMPS-P2A-768833-ROHIT SHARMA",
+    "amount": 1050,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:430",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-28",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 700.0,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:669",
+    "account_hint": "XX8821"
+  },
+  {
+    "date": "2026-06-29",
+    "merchant_raw": "POS 8821XXXX1102 SWIGGY BUNDL TECH CHENNAI",
+    "amount": 377.73,
+    "direction": "debit",
+    "source": "demo",
+    "source_ref": "demo:student:343",
+    "account_hint": "XX8821"
+  }
+]
