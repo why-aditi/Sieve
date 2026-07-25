@@ -8,9 +8,6 @@ import { useSession } from "@/lib/session";
 const STAGGER_MS = 34;
 const SOURCE_LABEL: Record<string, string> = {
   demo: "sample",
-  sms_paste: "SMS",
-  sms_xml: "SMS",
-  gmail: "email",
   csv: "statement",
 };
 
@@ -52,12 +49,12 @@ export default function Scanning() {
       <header className="flex items-baseline justify-between">
         <span className="font-mono text-sm text-ink">sieve</span>
         <span className="text-xs text-faint">
-          {done ? "Scan complete" : "Reading messages…"}
+          {done ? "Scan complete" : "Reading rows…"}
         </span>
       </header>
 
       <h1 className="mt-14 text-2xl tracking-tight text-ink sm:text-3xl">
-        {done ? "Here's what we read." : "Reading your messages."}
+        {done ? "Here's what we read." : "Reading your statement."}
       </h1>
 
       <div
@@ -110,12 +107,12 @@ export default function Scanning() {
           </h2>
           <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
             {[
-              ["Messages scanned", count(r.scanned)],
+              ["Rows read", count(r.scanned)],
               ["Transactions found", count(r.matched)],
-              ["Ignored", count(r.ignored)],
               ["Unreadable", count(r.unparsed)],
               ["Attachments opened", String(r.attachments_opened)],
               ["Bytes stored", String(r.bytes_stored)],
+              ["Sent anywhere else", "0"],
             ].map(([label, value]) => (
               <div key={label}>
                 <dt className="text-[11px] text-faint">{label}</dt>

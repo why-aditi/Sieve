@@ -1,9 +1,6 @@
 import family from "./data/family.json";
-import familyCombined from "./data/family_combined.json";
 import student from "./data/student.json";
-import studentCombined from "./data/student_combined.json";
 import youngProfessional from "./data/young_professional.json";
-import youngProfessionalCombined from "./data/young_professional_combined.json";
 import type { Analysis, Subscription, UsageTap } from "./types";
 
 /** Bundled, not fetched.
@@ -34,17 +31,6 @@ export const PROFILES = {
 export type ProfileKey = keyof typeof PROFILES;
 export const DEFAULT_PROFILE: ProfileKey = "young_professional";
 
-/** SMS + email receipts for the same account, deduped (§6.7).
- *
- *  This is what the Email card's "Try with demo account" loads. It is the only
- *  place multi-source ingestion is visible: 2,918 messages in, 800 charges out,
- *  118 of them seen twice and merged into one. Same corpus, both renderings,
- *  real adapter output — the merge count is measured, not written. */
-export const COMBINED: Record<ProfileKey, Analysis> = {
-  student: studentCombined as unknown as Analysis,
-  young_professional: youngProfessionalCombined as unknown as Analysis,
-  family: familyCombined as unknown as Analysis,
-};
 
 /** Re-score one subscription for a usage tap, client-side.
  *

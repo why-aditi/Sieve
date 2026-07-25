@@ -24,7 +24,7 @@ import actions  # noqa: E402
 import adapters  # noqa: E402
 import config  # noqa: E402
 import normalize  # noqa: E402
-from adapters import CsvAdapter, DemoAdapter, SmsPasteAdapter, SmsXmlAdapter  # noqa: E402
+from adapters import CsvAdapter, DemoAdapter  # noqa: E402
 from main import analyze, app  # noqa: E402
 
 client = TestClient(app, raise_server_exceptions=False)
@@ -44,7 +44,7 @@ def test_every_groq_client_comes_from_the_one_factory():
     """A call site constructing Groq() directly would silently inherit the
     60s/2-retry defaults and escape the bound above."""
     import re
-    for module in (normalize, adapters, actions):
+    for module in (normalize, actions):
         source = Path(module.__file__).read_text(encoding="utf-8")
         stray = re.findall(r"(?<!def )\bGroq\(", source)
         assert not stray, f"{Path(module.__file__).name} constructs Groq() directly"
@@ -81,13 +81,13 @@ def test_pipeline_survives_a_hanging_llm(monkeypatch):
     def hang(*a, **kw):
         raise TimeoutError("read timeout")
 
+    # Both remaining LLM call sites. The adapters carry none — CSV parsing is
+    # entirely deterministic.
     monkeypatch.setattr(config, "groq_client", hang)
     monkeypatch.setattr(normalize, "groq_client", hang)
-    monkeypatch.setattr(adapters, "groq_client", hang)
     monkeypatch.setattr(actions, "groq_client", hang)
 
     assert normalize.llm_resolve(["SOME UNKNOWN MERCHANT"]) == {}
-    assert adapters.llm_parse_sms(["Rs.100 moved somewhere somehow"]) == {}
     assert "Subject:" in actions.renegotiation_email("Airtel", "telecom", 999, 999, "monthly")
 
     result = analyze(DemoAdapter().fetch("student").transactions)
@@ -103,35 +103,22 @@ def detail(response) -> str:
     return body["detail"]
 
 
-def test_empty_paste():
-    r = client.post("/ingest/sms", json={"text": ""})
+def test_random_text_file_as_csv():
+    r = client.post("/ingest/csv", content=b"just some notes I had lying around")
     assert r.status_code == 422
-    assert "empty" in detail(r).lower()
+    assert "date, a description and an amount" in detail(r)
 
 
-def test_whitespace_only_paste():
-    r = client.post("/ingest/sms", json={"text": "   \n\n   "})
+def test_empty_csv():
+    r = client.post("/ingest/csv", content=b"")
     assert r.status_code == 422
-    assert "nothing to read" in detail(r).lower()
+    assert isinstance(r.json()["detail"], str)
 
 
-def test_random_text_pasted_as_sms():
-    r = client.post("/ingest/sms", json={"text": "the quick brown fox\njumped over\nthe lazy dog"})
+def test_headers_but_no_rows():
+    r = client.post("/ingest/csv", content=b"Txn Date,Narration,Withdrawal Amt.\n")
     assert r.status_code == 422
-    msg = detail(r)
-    assert "bank transactions" in msg or "couldn't read" in msg.lower()
-
-
-def test_random_text_file_as_xml():
-    r = client.post("/ingest/sms-xml", content=b"just some notes I had lying around")
-    assert r.status_code == 422
-    assert "SMS Backup & Restore" in detail(r)
-
-
-def test_corrupt_xml():
-    r = client.post("/ingest/sms-xml", content=b'<smses count="2"><sms body="Rs.1 deb')
-    assert r.status_code == 422
-    assert "<smses>" in detail(r)
+    assert "no rows" in detail(r).lower()
 
 
 def test_csv_with_wrong_headers():
@@ -151,11 +138,10 @@ def test_binary_garbage_as_csv():
 def test_no_stack_trace_ever_reaches_the_user():
     """A traceback in an error body is both ugly and an information leak."""
     probes = [
-        ("/ingest/sms", {"json": {"text": "\x00\x01\x02 garbage"}}),
-        ("/ingest/sms-xml", {"content": b"\xff\xfe\x00broken"}),
         ("/ingest/csv", {"content": b'"unclosed,,,\n\n\n'}),
         ("/ingest/csv", {"content": b""}),
-        ("/ingest/sms-xml", {"content": b""}),
+        ("/ingest/csv", {"content": b"\xff\xfe\x00broken"}),
+        ("/ingest/csv", {"content": bytes(range(256)) * 40}),
     ]
     for path, kwargs in probes:
         r = client.post(path, **kwargs)
@@ -169,11 +155,9 @@ def test_adapters_raise_valueerror_not_arbitrary_exceptions():
     """The endpoints translate ValueError into a 422; anything else becomes a
     500 with a generic message and loses the useful detail."""
     with pytest.raises(ValueError):
-        SmsXmlAdapter().fetch(b"not xml")
-    with pytest.raises(ValueError):
         CsvAdapter().fetch(b"a,b\n1,2\n")
-    # An empty paste is not an error — it is an empty result.
-    assert SmsPasteAdapter().fetch("", use_llm=False).receipt.scanned == 0
+    with pytest.raises(ValueError):
+        CsvAdapter().fetch(b"\xff\xfe\x00 not a csv")
 
 
 def test_demo_endpoint_rejects_unknown_profile_cleanly():
@@ -190,8 +174,7 @@ def test_demo_needs_no_backend_at_all():
     really a check that the bundles exist and are complete."""
     import json
     data = ROOT / "frontend" / "lib" / "data"
-    for name in ("student", "young_professional", "family",
-                 "student_combined", "young_professional_combined", "family_combined"):
+    for name in ("student", "young_professional", "family"):
         bundle = json.loads((data / f"{name}.json").read_text(encoding="utf-8"))
         assert bundle["subscriptions"], name
         assert bundle["portfolio"]["monthly_leak"] > 0, name

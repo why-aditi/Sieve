@@ -1,6 +1,6 @@
 """Synthetic transaction generator — spec §13.
 
-Emits, per profile: transactions.json, ground_truth.json, sms.txt, emails.json.
+Emits, per profile: transactions.json, ground_truth.json, statement.csv.
 
 This corpus is three things at once: the judge's demo data (§6.2), the labelled test
 set for the eval harness (§14), and the stress test for the merchant normalizer (§7).
@@ -551,153 +551,6 @@ def _gen_noise(p: Profile, rng: random.Random, counter, needed: int) -> tuple[li
     return txns, sorted({n.canonical for n in p.noise})
 
 
-# ------------------------------------------------------------------ sms + email
-
-
-def _fmt_amt(amt: float, commas: bool) -> str:
-    """Indian lakh/crore grouping: 1,84,325.00 — not 184,325.00."""
-    s = f"{amt:.2f}"
-    if not commas:
-        return s
-    ip, _, dp = s.partition(".")
-    if len(ip) > 3:
-        head, tail = ip[:-3], ip[-3:]
-        groups = []
-        while len(head) > 2:
-            groups.insert(0, head[-2:])
-            head = head[:-2]
-        if head:
-            groups.insert(0, head)
-        ip = ",".join(groups + [tail])
-    return f"{ip}.{dp}"
-
-
-def _render_sms(txn: dict, p: Profile, rng: random.Random) -> tuple[str, str]:
-    """(sender, body). Every body must match a pattern in sms_patterns.SMS_PATTERNS.
-
-    One bank per account, one issuer per card — a real person is not banking with
-    five institutions at once. The body format still varies by transaction type,
-    which is how banks genuinely template their alerts.
-    """
-    raw, amt = txn["merchant_raw"], txn["amount"]
-    d = date.fromisoformat(txn["date"])
-    dmy = d.strftime("%d-%m-%y")
-    dmy_slash = d.strftime("%d/%m/%y")
-    d_mon = d.strftime("%d-%b-%y")
-    dmy_full = d.strftime("%d-%m-%Y")
-
-    bank, card_bank = p.bank_sender, p.card_sender
-    sign = p.bank_signoff
-
-    if txn["direction"] == "credit":
-        return bank, (
-            f"Rs.{_fmt_amt(amt, True)} credited to a/c {p.account} on {dmy} "
-            f"by {raw}. Avl Bal INR {_fmt_amt(amt * 3.2, True)}."
-        )
-    if raw.startswith("ATM"):
-        return bank, (
-            f"Rs.{_fmt_amt(amt, False)} withdrawn from {raw} a/c {p.account} "
-            f"on {dmy}. {sign}"
-        )
-    if raw.startswith("UPI/"):
-        return bank, (
-            f"Rs {_fmt_amt(amt, False)} debited from A/c {p.account} {raw} "
-            f"on {dmy}. Not you? SMS BLOCK to 9951860002"
-        )
-    if raw.startswith(("ACH", "NACH", "ECS")):
-        return bank, (
-            f"Rs.{_fmt_amt(amt, True)} debited towards {raw} on {dmy_slash}. {sign}"
-        )
-    if raw.startswith("POS"):
-        return card_bank, (
-            f"INR {_fmt_amt(amt, True)} spent on {p.card_brand} Card XX{p.card} "
-            f"at {raw} on {d_mon}. Avl Lmt: INR {_fmt_amt(184325, True)}"
-        )
-    if raw.startswith(("NEFT", "IMPS")):
-        return bank, (
-            f"Rs.{_fmt_amt(amt, True)} debited from a/c {p.account} on {dmy} "
-            f"to {raw} via NetBanking. Not you? Call 18002586161"
-        )
-    if rng.random() < 0.5:
-        # Quotes the account, so it comes from the bank — not the card issuer.
-        return bank, (
-            f"Rs.{_fmt_amt(amt, False)} spent via {p.account} at {raw} "
-            f"on {dmy_full}. {sign}"
-        )
-    return bank, (
-        f"Rs.{_fmt_amt(amt, True)} has been debited for {raw} on {dmy} "
-        f"from {p.account}. {sign}"
-    )
-
-
-NON_BANK = [
-    ("VM-AMAZON", "Your OTP for Amazon login is {otp}. Do not share it with anyone."),
-    ("AD-SWIGGY", "Your order from Punjabi Rasoi has been delivered. Rate your experience!"),
-    ("JD-ZOMATO", "FLAT 60% OFF on your next 3 orders. Use code ZOMATO60. T&C apply."),
-    ("VK-OLACAB", "Your Ola ride is arriving in 3 mins. Driver: Ramesh, KA01AB{r4}"),
-    ("AX-IRCTC", "PNR {r6} CNF. Train 12628 departs 06:15. Happy journey!"),
-    ("TX-JIOTEL", "Recharge successful. Enjoy 2GB/day for 28 days. Balance: unlimited"),
-    ("VM-BIGBSK", "MEGA SALE! Upto 45% off on groceries. Shop now at bigbasket.com"),
-    ("AD-MYNTRA", "END OF REASON SALE is LIVE. 50-80% off on 5000+ brands."),
-    ("VM-APOLLO", "Your medicines have been dispatched. Track: apollo.in/t/{r6}"),
-    ("JD-URBANC", "Your Urban Company booking is confirmed for tomorrow 11:00 AM."),
-    ("AD-GOOGLE", "G-{otp} is your Google verification code."),
-    ("VM-WHATSA", "Your WhatsApp code: {otp}. Don't share this code."),
-    ("TX-PAYTM1", "Cashback of Rs 25 credited to your Paytm wallet. Shop more, save more!"),
-    ("VK-DUNZO1", "Your Dunzo order is out for delivery. ETA 12 mins."),
-    ("AD-CRED01", "You have 4,280 CRED coins expiring soon. Redeem now."),
-]
-
-
-def _render_non_bank(rng: random.Random) -> str:
-    sender, tpl = rng.choice(NON_BANK)
-    body = (
-        tpl.replace("{otp}", str(rng.randint(100000, 999999)))
-        .replace("{r6}", str(rng.randint(100000, 999999)))
-        .replace("{r4}", str(rng.randint(1000, 9999)))
-    )
-    return f"{sender}: {body}"
-
-
-EMAIL_SENDERS = {
-    "streaming": "billing@razorpay.com", "music": "receipts@razorpay.com",
-    "saas": "invoice@razorpay.com", "cloud": "payments@google.com",
-    "fitness": "billing@cure.fit", "telecom": "bills@paytm.com",
-    "food": "noreply@razorpay.com",
-}
-
-
-def _render_emails(txns: list[dict], sub_names: dict, rng: random.Random) -> list[dict]:
-    """Subscriptions emit an email receipt as well as an SMS — this is what §6.7 dedups."""
-    out = []
-    for t in txns:
-        name = sub_names.get(t["merchant_raw"])
-        if not name:
-            continue
-        canonical, category = name
-        d = date.fromisoformat(t["date"])
-        out.append({
-            "id": f"msg_{len(out):05d}",
-            "from": EMAIL_SENDERS.get(category, "noreply@razorpay.com"),
-            "subject": rng.choice([
-                f"Payment successful - {canonical}",
-                f"Your {canonical} receipt",
-                f"{canonical} subscription renewed",
-                f"Invoice for {canonical}",
-            ]),
-            "date": t["date"],
-            "body_text": (
-                f"Hello,\n\nWe have received your payment of Rs {t['amount']:,.2f} "
-                f"for {canonical} on {d.strftime('%d %B %Y')}.\n\n"
-                f"Reference: {t['merchant_raw']}\n"
-                f"Amount: INR {t['amount']:,.2f}\n"
-                f"Date: {d.strftime('%d %B %Y')}\n\n"
-                f"This is an automated receipt. Do not reply.\n"
-            ),
-        })
-    return out
-
-
 # ----------------------------------------------------------------------- assemble
 
 
@@ -712,17 +565,6 @@ def generate(p: Profile) -> dict:
 
     txns = sorted(sub_txns + decoy_txns + noise_txns, key=lambda t: (t["date"], t["source_ref"]))
 
-    sms_lines = []
-    for t in txns:
-        sender, body = _render_sms(t, p, rng)
-        sms_lines.append(f"{sender}: {body}")
-    bank_count = len(sms_lines)
-    for _ in range(int(bank_count * 2.5)):
-        sms_lines.append(_render_non_bank(rng))
-    rng.shuffle(sms_lines)
-
-    emails = _render_emails(txns, sub_names, rng)
-
     ground_truth = {
         "profile": p.name,
         "seed": p.seed,
@@ -733,54 +575,8 @@ def generate(p: Profile) -> dict:
         "excluded": gt_excluded,
         "noise_merchants": noise_merchants,
         "noise_count": len(noise_txns),
-        "expected_dedup_pairs": len(emails),
-        "sms_line_count": len(sms_lines),
-        "sms_bank_line_count": bank_count,
     }
-    return {"transactions": txns, "ground_truth": ground_truth,
-            "sms": sms_lines, "emails": emails}
-
-
-def render_xml(p: Profile, bundle: dict) -> str:
-    """SMS Backup & Restore format — what the app actually exports (§6.4).
-
-    Doubles as the test fixture and the sample file offered on /connect, so a
-    judge with no export of their own can still exercise the real upload path.
-    """
-    from xml.sax.saxutils import quoteattr
-
-    rows = []
-    for line in bundle["sms"]:
-        sender, _, body = line.partition(": ")
-        # Epoch millis in IST — the timezone the phone recorded them in.
-        when = _sms_date(body) or END_DATE
-        ms = int(
-            (when - date(1970, 1, 1)).total_seconds() * 1000
-            - 5.5 * 3600 * 1000 + 12 * 3600 * 1000
-        )
-        rows.append(
-            f'  <sms protocol="0" address={quoteattr(sender)} date="{ms}" '
-            f'type="1" read="1" service_center="null" body={quoteattr(body)} />'
-        )
-    return (
-        '<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>\n'
-        f'<smses count="{len(rows)}">\n' + "\n".join(rows) + "\n</smses>\n"
-    )
-
-
-def _sms_date(body: str):
-    """Pull the date the bank stated, so the XML timestamp agrees with it."""
-    import re as _re
-
-    from dateutil import parser as _parser
-
-    match = _re.search(r"\b(\d{1,2}[-/]\d{1,2}[-/]\d{2,4}|\d{1,2}-[A-Za-z]{3}-\d{2,4})\b", body)
-    if not match:
-        return None
-    try:
-        return _parser.parse(match.group(1), dayfirst=True).date()
-    except (ValueError, OverflowError):
-        return None
+    return {"transactions": txns, "ground_truth": ground_truth}
 
 
 def render_csv(p: Profile, bundle: dict) -> str:
@@ -813,10 +609,6 @@ def write(p: Profile, bundle: dict) -> None:
         json.dumps(bundle["transactions"], indent=2) + "\n", encoding="utf-8")
     (d / "ground_truth.json").write_text(
         json.dumps(bundle["ground_truth"], indent=2) + "\n", encoding="utf-8")
-    (d / "sms.txt").write_text("\n".join(bundle["sms"]) + "\n", encoding="utf-8")
-    (d / "emails.json").write_text(
-        json.dumps(bundle["emails"], indent=2) + "\n", encoding="utf-8")
-    (d / "sms.xml").write_text(render_xml(p, bundle), encoding="utf-8")
     (d / "statement.csv").write_text(render_csv(p, bundle), encoding="utf-8")
 
 
@@ -829,8 +621,7 @@ def main() -> None:
             f"{p.name:20s} {gt['transaction_count']:4d} txns · "
             f"{len(gt['subscriptions'])} subs · {gt['noise_count']} noise · "
             f"{len(gt['excluded'])} excluded · {len(gt['price_changes'])} price changes · "
-            f"{gt['sms_line_count']} sms lines ({gt['sms_bank_line_count']} bank) · "
-            f"{len(b['emails'])} emails"
+            f"{gt['transaction_count']} statement rows"
         )
 
 

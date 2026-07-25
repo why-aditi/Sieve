@@ -39,13 +39,13 @@ this is the honest reading of them:
 
 - **Merchant normalization at 100% is close to tautological.** The alias table
   and the generator's templates were authored against the same brand list, so
-  this measures that the cascade works — not that it generalises. The real
-  measurement is below.
-- **Against real-world Indian bank SMS formats the generator never produced,
-  the template bank alone scored 0/12.** That is what forced the second
-  deterministic tier (field-role extraction), which brings it to **11/12**;
-  the LLM fallback recovers the twelfth. The one hard miss is an IMPS transfer
-  whose text contains no merchant name at all.
+  this measures that the cascade works — not that it generalises to a bank
+  whose descriptions we have never seen.
+- **The column matcher is tested against our own statement plus a handful of
+  hand-written header variants** (`Txn Date` / `Narration` / `Withdrawal Amt.`
+  / `Deposit Amt.` / `Dr/Cr`). It is not tested against a real export from
+  every Indian bank, and that is the most likely thing to break on a stranger's
+  file.
 - **Annual subscriptions sit 0.10 above the confidence floor.** Eighteen months
   can hold only two annual charges, so §8's `>= 3` gate is relaxed to 2 for
   them and confidence is capped at 0.60 against a 0.50 floor. A noisier pair
@@ -53,8 +53,8 @@ this is the honest reading of them:
 - **The amount-stability gate is unexercised.** Every surviving subscription
   scores 0.0000 against a 0.35 threshold, so that threshold is an assumption,
   not a validated number.
-- **SMS parse-rate is deliberately absent from this table.** Our own regexes
-  against our own generator is not a measurement.
+- **A single source means no deduplication.** If a statement lists the same
+  charge twice, Sieve counts it twice.
 
 ---
 
@@ -93,7 +93,9 @@ Open <http://localhost:3000>. Needs `frontend/.env.local`:
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-A green dot on the landing page means the frontend reached the backend.
+The backend is only needed to upload your own statement. The landing page and
+the sample data work with it switched off — the demo bundles ship in the
+frontend, so the judge's path makes zero network calls.
 
 ### Tests
 
@@ -137,21 +139,43 @@ Free tier sleeps after ~15 min idle; the first request takes ~50s to wake.
 
 ### 4. Verify like a judge
 
-Open the Vercel URL **on a phone, on mobile data** — not the machine that built it.
-Green dot = both halves are live and talking.
+Open the Vercel URL **on a phone, on mobile data** — not the machine that built
+it. Click "See it with sample data": the dashboard must render in about two
+seconds even if Render is asleep. Then open `/connect` and upload the sample
+statement to check the backend half.
 
 ---
 
 ## Layout
 
 ```
-backend/models.py     frozen interface (spec §5) — the whole team codes against this
-backend/main.py       FastAPI app + /health
-data/                 demo profiles + ground truth (Phase 1)
-tests/                interface + detection tests
-docs/prd.md           the spec
-render.yaml           backend deploy config
+backend/models.py         frozen interface (spec §5) — everything codes against this
+backend/adapters.py       DemoAdapter (bundled) + CsvAdapter (§6.2, §6.6)
+backend/normalize.py      merchant cascade: regex -> alias -> fuzzy -> LLM (§7)
+backend/recurrence.py     period detection, regularity + day-of-month anchoring (§8)
+backend/price_change.py   persistent step hikes and creep (§9)
+backend/exclusions.py     rent / salary / EMI / SIP / card / utilities (§8.1)
+backend/dormancy.py       four proxy signals + the usage tap (§10)
+backend/scoring.py        the weighted leak score and its breakdown (§11)
+backend/actions.py        top-20 cancellation paths, tiers, renegotiation (§12)
+backend/main.py           FastAPI: /health /demo /analyze /ingest/csv /renegotiate
+backend/data_gen.py       the synthetic corpus + ground truth (§13)
+backend/export_demo.py    builds the bundles the frontend ships
+frontend/lib/data/        those bundles — the demo never hits the network
+data/                     demo profiles, ground truth, sample statements
+tests/                    interface, corpus, engine, adapters, hardening
+docs/prd.md               the spec
+render.yaml               backend deploy config
 ```
+
+### Ingestion
+
+Two adapters, one interface (§6.1). Both emit `Transaction[]` from the frozen §5
+dataclass plus a scan receipt, so nothing downstream knows which one ran.
+
+The spec also describes SMS-paste, SMS-XML and Gmail adapters. Those were built
+and then **cut** — the product is statement-only. §5's `source` literal still
+lists them because it is the frozen interface; nothing can produce those values.
 
 ### A note on `models.py`
 

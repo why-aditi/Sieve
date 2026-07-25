@@ -35,9 +35,9 @@ export default function Landing() {
           <span className="tnum text-brass">{money(headline)}</span> a month.
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-          Find out in 30 seconds. Sieve reads the bank messages already sitting
-          on your phone and finds the subscriptions you forgot, the prices that
-          rose without telling you, and what to do about each one.
+          Find out in 30 seconds. Point Sieve at a bank statement and it finds
+          the subscriptions you forgot, the prices that rose without telling
+          you, and what to do about each one.
         </p>
 
         <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
@@ -52,7 +52,7 @@ export default function Landing() {
             href="/connect"
             className="text-sm text-muted underline underline-offset-4 transition-colors hover:text-ink"
           >
-            Connect your own →
+            Upload your own statement →
           </Link>
         </div>
         <p className="mt-4 text-xs text-faint">
@@ -65,7 +65,7 @@ export default function Landing() {
           Why this is hard
         </h2>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink">
-          Your bank writes the same subscription four different ways.
+          Your statement writes the same subscription four different ways.
         </p>
 
         <div className="mt-10">

@@ -25,9 +25,7 @@ import dormancy
 import exclusions
 import normalize
 import scoring
-from adapters import (
-    DEMO_PROFILES, CsvAdapter, DemoAdapter, SmsPasteAdapter, SmsXmlAdapter,
-)
+from adapters import DEMO_PROFILES, CsvAdapter, DemoAdapter
 from models import Transaction
 from price_change import detect_price_changes
 from recurrence import PERIODS_PER_YEAR, detect_recurrence
@@ -54,14 +52,14 @@ class TransactionIn(BaseModel):
     merchant_raw: str = Field(min_length=1, max_length=500)
     amount: float = Field(ge=0)
     direction: Literal["debit", "credit"]
-    source: Literal["demo", "sms_paste", "sms_xml", "gmail", "csv"]
+    source: Literal["demo", "csv"]
     source_ref: Optional[str] = None
     account_hint: Optional[str] = None
 
 
 class AnalyzeRequest(BaseModel):
     # Bounded on purpose: this is a trust boundary and the whole analysis runs
-    # in memory. 20k covers a 5,000-message SMS export several times over.
+    # in memory. 20k covers several years of statement rows.
     transactions: list[TransactionIn] = Field(min_length=1, max_length=MAX_TRANSACTIONS)
     usage_taps: dict[str, Literal["yes", "no", "unsure"]] = Field(default_factory=dict)
 
@@ -229,12 +227,7 @@ def friendly_validation_error(request: Request, exc: RequestValidationError):
     in one sentence a person can act on."""
     first = (exc.errors() or [{}])[0]
     field = str((first.get("loc") or ["input"])[-1])
-    if first.get("type") in ("string_too_short", "missing") and field == "text":
-        message = "Paste some messages first — the box is empty."
-    elif first.get("type") == "string_too_long":
-        message = "That paste is too large. Try the XML export instead."
-    else:
-        message = f"Couldn't read the request: {first.get('msg', 'invalid input')} ({field})."
+    message = f"Couldn't read the request: {first.get('msg', 'invalid input')} ({field})."
     return JSONResponse(status_code=422, content={"detail": message})
 
 
@@ -248,52 +241,23 @@ def unexpected_error(request: Request, exc: Exception):
     )
 
 
-class PasteRequest(BaseModel):
-    text: str = Field(min_length=1, max_length=8_000_000)
-
-
 def _ingest(result) -> dict:
     """Every ingestion path returns the same shape as /demo/{profile}, so the
     frontend renders all of them through one code path."""
     if not result.transactions:
         r = result.receipt
         if r.scanned == 0:
-            detail = "Nothing to read in there."
-        elif r.unparsed:
-            detail = (
-                f"Found {r.scanned:,} message(s) but couldn't read a transaction "
-                f"from any of them. Sieve expects bank alerts like "
-                f'"Rs.649 debited from a/c XX4471 on 14-03-26 to NETFLIX".'
-            )
+            detail = "That file has no rows in it."
         else:
             detail = (
-                f"Read {r.scanned:,} message(s), but none were bank transactions "
-                f"— they looked like OTPs or promotions."
+                f"Read {r.scanned:,} row(s) but couldn't find a date and an "
+                f"amount in any of them."
             )
         raise HTTPException(422, detail)
     return {
         "receipt": {**vars(result.receipt), "summary": result.receipt.summary()},
         **analyze(result.transactions),
     }
-
-
-@app.post("/ingest/sms")
-def ingest_sms(req: PasteRequest):
-    """§6.3 — the hero feature. Paste, no permissions, fifteen seconds."""
-    return _ingest(SmsPasteAdapter().fetch(req.text))
-
-
-@app.post("/ingest/sms-xml")
-async def ingest_sms_xml(request: Request):
-    """§6.4 — SMS Backup & Restore export. Raw body, not multipart: it avoids a
-    dependency and the browser can POST a File object directly."""
-    raw = await request.body()
-    if len(raw) > MAX_UPLOAD:
-        raise HTTPException(413, f"file exceeds {MAX_UPLOAD // 1024 // 1024}MB")
-    try:
-        return _ingest(SmsXmlAdapter().fetch(raw))
-    except ValueError as exc:
-        raise HTTPException(422, str(exc)) from exc
 
 
 @app.post("/ingest/csv")

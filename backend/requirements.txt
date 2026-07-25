@@ -1,8 +1,8 @@
 fastapi
 uvicorn[standard]
 
-# LLM at the edges only (spec §2) — merchant naming, SMS bodies that fail regex,
-# renegotiation drafts. Every call has a non-LLM fallback.
+# LLM at the edges only (spec §2) — naming merchants the alias table doesn't
+# know, and drafting renegotiation emails. Every call has a non-LLM fallback.
 groq
 # Arrives transitively via uvicorn[standard], but nothing declares it — pin it
 # so a fresh build can't drop the .env loader.

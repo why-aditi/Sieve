@@ -18,7 +18,6 @@ sys.path.insert(0, str(ROOT / "backend"))
 
 import data_gen  # noqa: E402
 from models import Transaction  # noqa: E402
-from sms_patterns import BANK_SENDERS, match_sms, strip_carrier  # noqa: E402
 
 PROFILES = [p.name for p in data_gen.PROFILES]
 PERIOD_BANDS = {  # spec §8 snap_to_period
@@ -40,8 +39,6 @@ def corpus(request):
         "name": p,
         "txns": load(p, "transactions.json"),
         "gt": load(p, "ground_truth.json"),
-        "sms": load(p, "sms.txt"),
-        "emails": load(p, "emails.json"),
     }
 
 
@@ -77,7 +74,7 @@ def test_records_match_frozen_model(corpus):
     for rec in corpus["txns"]:
         t = Transaction(**{**rec, "date": date.fromisoformat(rec["date"])})
         assert t.direction in ("debit", "credit")
-        assert t.source in ("demo", "sms_paste", "sms_xml", "gmail", "csv")
+        assert t.source in ("demo", "csv")
         assert t.amount >= 0
         assert data_gen.START_DATE <= t.date <= data_gen.END_DATE
 
@@ -231,68 +228,6 @@ def test_salary_is_the_only_credit(corpus):
     salary = next(e for e in corpus["gt"]["excluded"] if e["reason"] == "salary")
     assert salary["direction"] == "credit"
     assert len(credits) == salary["occurrences"]
-
-
-# -------------------------------------------------------------------------- sms
-
-
-def test_every_bank_line_parses(corpus):
-    """The '100% parseable' guarantee, verified rather than claimed."""
-    unparsed = []
-    for line in corpus["sms"]:
-        sender, _, body = line.partition(": ")
-        if strip_carrier(sender) not in BANK_SENDERS:
-            continue
-        if match_sms(body) is None:
-            unparsed.append(line)
-    assert not unparsed, f"{len(unparsed)} unparsed, e.g. {unparsed[:2]}"
-
-
-def test_sms_amount_and_merchant_round_trip(corpus):
-    """A pattern matching is not enough — it must extract the right fields."""
-    # One raw string maps to many amounts: ACH mandate descriptors are byte-identical
-    # every month, which is exactly why clustering works on them.
-    raws: dict[str, set] = {}
-    for t in corpus["txns"]:
-        raws.setdefault(t["merchant_raw"], set()).add(round(t["amount"], 2))
-
-    checked = 0
-    for line in corpus["sms"]:
-        sender, _, body = line.partition(": ")
-        if strip_carrier(sender) not in BANK_SENDERS:
-            continue
-        m = match_sms(body)
-        merch = m.group("merch")
-        if merch not in raws:
-            continue
-        amt = round(float(m.group("amt").replace(",", "")), 2)
-        assert amt in raws[merch], f"{merch}: parsed {amt}, have {raws[merch]}"
-        checked += 1
-    assert checked > 500, f"only round-tripped {checked} messages"
-
-
-def test_sms_carries_non_bank_noise(corpus):
-    """The §15 scan receipt is only meaningful if there is chaff to filter."""
-    gt = corpus["gt"]
-    bank = [l for l in corpus["sms"] if strip_carrier(l.split(":")[0]) in BANK_SENDERS]
-    assert len(bank) == gt["sms_bank_line_count"] == gt["transaction_count"]
-    assert len(corpus["sms"]) == gt["sms_line_count"]
-    assert len(corpus["sms"]) > 2 * len(bank), "need real chaff, not a token amount"
-
-
-# ----------------------------------------------------------------------- emails
-
-
-def test_emails_cover_subscriptions_and_feed_dedup(corpus):
-    emails = corpus["emails"]
-    gt = corpus["gt"]
-    assert len(emails) == gt["expected_dedup_pairs"]
-    sub_txn_count = sum(s["occurrences"] for s in gt["subscriptions"])
-    assert len(emails) == sub_txn_count, "every subscription charge emits a receipt"
-    for e in emails:
-        assert e["body_text"] and "Rs" in e["body_text"]
-        assert any(k in e["subject"].lower()
-                   for k in ("payment successful", "receipt", "renewed", "invoice"))
 
 
 # ------------------------------------------------------------------ determinism

@@ -30,7 +30,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "Sieve — find the subscriptions you forgot",
   description:
-    "Point it at your bank SMS. In 30 seconds it shows what you're leaking every month, which prices rose without telling you, and exactly what to cancel.",
+    "Point it at a bank statement. In 30 seconds it shows what you're leaking every month, which prices rose without telling you, and exactly what to cancel.",
 };
 
 export default function RootLayout({

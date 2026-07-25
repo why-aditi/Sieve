@@ -287,8 +287,5 @@
     "Uber",
     "Zomato"
   ],
-  "noise_count": 540,
-  "expected_dedup_pairs": 134,
-  "sms_line_count": 2800,
-  "sms_bank_line_count": 800
+  "noise_count": 540
 }

@@ -20,6 +20,9 @@ class Transaction:
     merchant_raw: str           # "UPI/NETFLIX BILLDESK/928471/PAYMENT"
     amount: float               # always positive
     direction: Literal["debit", "credit"]
+    # §5 verbatim. Only "demo" and "csv" can be produced today — the SMS and
+    # Gmail adapters were cut — but this is the frozen interface, so the
+    # literal stays as the spec defines it rather than drifting.
     source: Literal["demo", "sms_paste", "sms_xml", "gmail", "csv"]
     source_ref: Optional[str]   # message id / row index, for the audit trail
     account_hint: Optional[str]  # "XX4471"

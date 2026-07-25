@@ -37,13 +37,5 @@ async function post(path: string, body: BodyInit, headers: HeadersInit): Promise
   return response.json();
 }
 
-export const ingestSms = (text: string) =>
-  post("/ingest/sms", JSON.stringify({ text }), {
-    "Content-Type": "application/json",
-  });
-
-export const ingestSmsXml = (file: File) =>
-  post("/ingest/sms-xml", file, { "Content-Type": "application/xml" });
-
 export const ingestCsv = (file: File) =>
   post("/ingest/csv", file, { "Content-Type": "text/csv" });
