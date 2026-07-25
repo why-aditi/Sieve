@@ -25,6 +25,11 @@ Check it: <http://localhost:8000/health> → `{"status":"ok","service":"sieve"}`
 
 macOS / Linux: `source .venv/bin/activate` instead of the Activate.ps1 line.
 
+**Optional LLM (Groq).** Detection works fully without it. Set `GROQ_API_KEY` to
+enable merchant naming for strings the alias + fuzzy cascade doesn't recognise;
+`GROQ_MODEL` overrides the model (default `openai/gpt-oss-120b`). Every LLM call
+has a non-LLM fallback and never blocks the pipeline (spec §2).
+
 ### Frontend (Next.js, port 3000)
 
 ```powershell

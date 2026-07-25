@@ -1,6 +1,13 @@
 fastapi
 uvicorn[standard]
 
+# LLM at the edges only (spec §2) — merchant naming, SMS bodies that fail regex,
+# renegotiation drafts. Every call has a non-LLM fallback.
+groq
+# Arrives transitively via uvicorn[standard], but nothing declares it — pin it
+# so a fresh build can't drop the .env loader.
+python-dotenv
+
 # Not imported yet. Installed now so the Render build is proven at hour 1
 # instead of failing on a wheel at hour 12.
 pandas
