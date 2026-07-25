@@ -741,6 +741,71 @@ def generate(p: Profile) -> dict:
             "sms": sms_lines, "emails": emails}
 
 
+def render_xml(p: Profile, bundle: dict) -> str:
+    """SMS Backup & Restore format — what the app actually exports (§6.4).
+
+    Doubles as the test fixture and the sample file offered on /connect, so a
+    judge with no export of their own can still exercise the real upload path.
+    """
+    from xml.sax.saxutils import quoteattr
+
+    rows = []
+    for line in bundle["sms"]:
+        sender, _, body = line.partition(": ")
+        # Epoch millis in IST — the timezone the phone recorded them in.
+        when = _sms_date(body) or END_DATE
+        ms = int(
+            (when - date(1970, 1, 1)).total_seconds() * 1000
+            - 5.5 * 3600 * 1000 + 12 * 3600 * 1000
+        )
+        rows.append(
+            f'  <sms protocol="0" address={quoteattr(sender)} date="{ms}" '
+            f'type="1" read="1" service_center="null" body={quoteattr(body)} />'
+        )
+    return (
+        '<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>\n'
+        f'<smses count="{len(rows)}">\n' + "\n".join(rows) + "\n</smses>\n"
+    )
+
+
+def _sms_date(body: str):
+    """Pull the date the bank stated, so the XML timestamp agrees with it."""
+    import re as _re
+
+    from dateutil import parser as _parser
+
+    match = _re.search(r"\b(\d{1,2}[-/]\d{1,2}[-/]\d{2,4}|\d{1,2}-[A-Za-z]{3}-\d{2,4})\b", body)
+    if not match:
+        return None
+    try:
+        return _parser.parse(match.group(1), dayfirst=True).date()
+    except (ValueError, OverflowError):
+        return None
+
+
+def render_csv(p: Profile, bundle: dict) -> str:
+    """A statement export in the shape Indian banks actually ship: separate
+    withdrawal and deposit columns, not an amount + type pair."""
+    import csv
+    import io
+
+    buf = io.StringIO()
+    writer = csv.writer(buf, lineterminator="\n")
+    writer.writerow(
+        ["Txn Date", "Value Date", "Narration", "Chq/Ref No",
+         "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"]
+    )
+    balance = 250000.0
+    for t in bundle["transactions"]:
+        when = date.fromisoformat(t["date"]).strftime("%d/%m/%y")
+        debit = f"{t['amount']:,.2f}" if t["direction"] == "debit" else ""
+        credit = f"{t['amount']:,.2f}" if t["direction"] == "credit" else ""
+        balance += t["amount"] if t["direction"] == "credit" else -t["amount"]
+        writer.writerow([when, when, t["merchant_raw"], t["source_ref"] or "",
+                         debit, credit, f"{balance:,.2f}"])
+    return buf.getvalue()
+
+
 def write(p: Profile, bundle: dict) -> None:
     d = OUT_DIR / p.name
     d.mkdir(parents=True, exist_ok=True)
@@ -751,6 +816,8 @@ def write(p: Profile, bundle: dict) -> None:
     (d / "sms.txt").write_text("\n".join(bundle["sms"]) + "\n", encoding="utf-8")
     (d / "emails.json").write_text(
         json.dumps(bundle["emails"], indent=2) + "\n", encoding="utf-8")
+    (d / "sms.xml").write_text(render_xml(p, bundle), encoding="utf-8")
+    (d / "statement.csv").write_text(render_csv(p, bundle), encoding="utf-8")
 
 
 def main() -> None:

@@ -141,9 +141,12 @@ AMOUNT = re.compile(r"(?:RS\.?|INR|₹)\s?(?P<amt>\d[\d,]*(?:\.\d{1,2})?)", re.I
 
 DATE_TOKEN = re.compile(
     r"\b(?P<date>"
-    r"\d{1,2}[-/]\d{1,2}[-/]\d{2,4}"          # 14-03-26, 14/03/2026
-    r"|\d{1,2}[-\s]?[A-Za-z]{3}[-\s]?\d{2,4}"  # 05-Apr-26, 21Mar26, 12 May 2026
-    r"|\d{4}-\d{2}-\d{2}"                      # 2026-03-14
+    r"\d{4}-\d{2}-\d{2}"                          # 2026-03-14
+    r"|\d{1,2}[-/]\d{1,2}[-/]\d{2,4}"             # 14-03-26, 14/03/2026
+    # 05-Apr-26 · 21Mar26 · 12 May 2026 · 20 January 2025. Full month names
+    # matter: email receipts spell the month out, and {3} silently missed
+    # every one of them.
+    r"|\d{1,2}[-\s]?[A-Za-z]{3,9}[-\s]?\d{2,4}"
     r")\b"
 )
 
@@ -157,9 +160,15 @@ MERCHANT_LEAD = re.compile(
 MERCHANT_SPAN = 50
 
 # Text after the merchant that is never part of its name.
+#
+# `[\s\S]*` and not `.*$`: `.` never crosses a newline, and without re.M the
+# `$` then fails to anchor, so the whole pattern silently declined to match on
+# any multi-line body. Email receipts are all multi-line, so every one of them
+# kept its trailing date ("Netflix on 20 January 2025") — which then failed to
+# fuzzy-match the SMS for the same charge and broke dedup downstream.
 MERCHANT_STOP = re.compile(
     r"\s+(?:on|ref|refno|upi|avl|available|bal|balance|not\s+you|info|txn|trxn|"
-    r"transaction|id|dated|thru|via|call|sms|to\s+block)\b.*$",
+    r"transaction|id|dated|thru|via|call|sms|to\s+block)\b[\s\S]*",
     re.I,
 )
 
@@ -169,7 +178,9 @@ ACCOUNTISH = re.compile(
 
 
 def _clean_merchant(raw: str) -> str:
-    cleaned = MERCHANT_STOP.sub("", raw).strip(" .,-–—")
+    # A merchant name never spans lines; anything after the first one is the
+    # rest of the receipt.
+    cleaned = MERCHANT_STOP.sub("", raw.split("\n")[0]).strip(" .,-–—")
     cleaned = re.split(r"[.,;()]", cleaned)[0]
     # A trailing single character is the head of a word we cut mid-token
     # ("ADOBE SYSTEMS Avl Lmt" -> "ADOBE SYSTEMS A"). Merchants do not end in
@@ -192,7 +203,12 @@ def generic_parse(body: str) -> dict | None:
         amount = float(money.group("amt").replace(",", ""))
     except ValueError:
         return None
-    if amount <= 0:
+    # Rs 0 is real — free-trial charges are exactly what §10's trial-conversion
+    # signal is built on, and email receipts state them explicitly. (An earlier
+    # note here claimed a bare "Rs 0" was more likely a balance line; the email
+    # corpus disproved that. The merchant and date requirements below already
+    # reject balance lines, which carry neither.)
+    if amount < 0:
         return None
 
     merchant = None

@@ -133,6 +133,24 @@ def test_one_message_per_line_is_never_joined():
     assert result.receipt.matched > 50, "800 lines collapsed into a handful"
 
 
+def test_a_small_paste_is_not_glued_into_one_message():
+    """Regression: three one-per-line messages with no blank lines between them.
+
+    This is what Android's copy produces for a small selection, and the
+    wrapped-message heuristic used to swallow all three into one.
+    """
+    paste = "\n".join([
+        "VM-HDFCBK: Rs.649.00 debited from a/c XX4471 on 14-03-26 to UPI/NETFLIX/928471/PAYMENT via NetBanking",
+        "VM-HDFCBK: Rs.649.00 debited from a/c XX4471 on 14-04-26 to UPI/NETFLIX/113344/PAYMENT via NetBanking",
+        "VM-HDFCBK: Rs.649.00 debited from a/c XX4471 on 14-05-26 to UPI/NETFLIX/551122/PAYMENT via NetBanking",
+    ])
+    result = SmsPasteAdapter().fetch(paste, use_llm=False)
+    assert result.receipt.scanned == 3
+    assert result.receipt.matched == 3
+    assert {t.date for t in result.transactions} == {
+        date(2026, 3, 14), date(2026, 4, 14), date(2026, 5, 14)}
+
+
 def test_wrapped_multiline_message_is_parsed_whole():
     """Android pastes often wrap one SMS over several lines."""
     wrapped = (

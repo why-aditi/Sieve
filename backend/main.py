@@ -13,7 +13,7 @@ from datetime import date
 from pathlib import Path
 from typing import Literal, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -22,7 +22,9 @@ import dormancy
 import exclusions
 import normalize
 import scoring
-from adapters import DEMO_PROFILES, DemoAdapter
+from adapters import (
+    DEMO_PROFILES, CsvAdapter, DemoAdapter, SmsPasteAdapter, SmsXmlAdapter,
+)
 from models import Transaction
 from price_change import detect_price_changes
 from recurrence import PERIODS_PER_YEAR, detect_recurrence
@@ -212,6 +214,58 @@ def health():
 def analyze_endpoint(req: AnalyzeRequest):
     txns = [Transaction(**t.model_dump()) for t in req.transactions]
     return analyze(txns, req.usage_taps)
+
+
+MAX_UPLOAD = 40 * 1024 * 1024
+
+
+class PasteRequest(BaseModel):
+    text: str = Field(min_length=1, max_length=8_000_000)
+
+
+def _ingest(result) -> dict:
+    """Every ingestion path returns the same shape as /demo/{profile}, so the
+    frontend renders all of them through one code path."""
+    if not result.transactions:
+        raise HTTPException(
+            422,
+            "No transactions found. " + (result.receipt.summary() or "Nothing readable."),
+        )
+    return {
+        "receipt": {**vars(result.receipt), "summary": result.receipt.summary()},
+        **analyze(result.transactions),
+    }
+
+
+@app.post("/ingest/sms")
+def ingest_sms(req: PasteRequest):
+    """§6.3 — the hero feature. Paste, no permissions, fifteen seconds."""
+    return _ingest(SmsPasteAdapter().fetch(req.text))
+
+
+@app.post("/ingest/sms-xml")
+async def ingest_sms_xml(request: Request):
+    """§6.4 — SMS Backup & Restore export. Raw body, not multipart: it avoids a
+    dependency and the browser can POST a File object directly."""
+    raw = await request.body()
+    if len(raw) > MAX_UPLOAD:
+        raise HTTPException(413, f"file exceeds {MAX_UPLOAD // 1024 // 1024}MB")
+    try:
+        return _ingest(SmsXmlAdapter().fetch(raw))
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
+
+
+@app.post("/ingest/csv")
+async def ingest_csv(request: Request):
+    """§6.6 — statement export."""
+    raw = await request.body()
+    if len(raw) > MAX_UPLOAD:
+        raise HTTPException(413, f"file exceeds {MAX_UPLOAD // 1024 // 1024}MB")
+    try:
+        return _ingest(CsvAdapter().fetch(raw))
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
 
 
 class RenegotiateRequest(BaseModel):
