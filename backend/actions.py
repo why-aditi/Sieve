@@ -19,6 +19,7 @@ import os
 from dataclasses import dataclass, field
 from typing import Optional
 
+from config import GROQ_MODEL, groq_key
 from models import Action, MerchantCluster, PriceChange
 
 # Categories where a human on the other end can actually change your price.
@@ -186,7 +187,6 @@ def decide(
 
 # ------------------------------------------------------- renegotiation drafting
 
-GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 _EMAIL_CACHE: dict[str, str] = {}
 
 _EMAIL_SCHEMA = {
@@ -239,7 +239,7 @@ def renegotiation_email(
         return _EMAIL_CACHE[key]
 
     fallback = _static_email(canonical, current, original, period)
-    if not os.getenv("GROQ_API_KEY"):
+    if not groq_key():
         return fallback
 
     try:

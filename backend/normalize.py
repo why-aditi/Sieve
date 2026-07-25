@@ -20,16 +20,10 @@ import os
 import re
 from functools import lru_cache
 
-from pathlib import Path
-
-from dotenv import load_dotenv
 from rapidfuzz import fuzz
 
+from config import GROQ_MODEL, groq_key  # noqa: F401  (imported for .env load)
 from models import MerchantCluster, Transaction
-
-# Loaded before the module constants below read the environment. Absent .env is
-# not an error — Render injects real env vars and there is no file there.
-load_dotenv(Path(__file__).resolve().parent / ".env")
 
 # ---------------------------------------------------------------- step 1: clean
 
@@ -208,19 +202,13 @@ _LLM_SCHEMA = {
 _LLM_CACHE: dict[str, tuple[str, str]] = {}
 MAX_LLM_BATCH = 60
 
-# Groq deprecates model IDs on short notice, so keep it overridable without a
-# code change. Structured outputs are supported on openai/gpt-oss-*,
-# moonshotai/kimi-k2-instruct, and the Llama 4 models.
-GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
-
-
 def llm_resolve(cleaned: list[str]) -> dict[str, tuple[str, str]]:
     """One batched Groq call. Returns {} on ANY failure — the caller keeps going.
 
     Cached by cleaned string, so a repeat scan in the same process is free.
     """
     todo = [c for c in dict.fromkeys(cleaned) if c not in _LLM_CACHE][:MAX_LLM_BATCH]
-    if not todo or not os.getenv("GROQ_API_KEY"):
+    if not todo or not groq_key():
         return {c: _LLM_CACHE[c] for c in cleaned if c in _LLM_CACHE}
 
     try:

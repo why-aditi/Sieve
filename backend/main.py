@@ -22,12 +22,11 @@ import dormancy
 import exclusions
 import normalize
 import scoring
+from adapters import DEMO_PROFILES, DemoAdapter
 from models import Transaction
 from price_change import detect_price_changes
 from recurrence import PERIODS_PER_YEAR, detect_recurrence
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data"
-DEMO_PROFILES = ("student", "young_professional", "family")
 MAX_TRANSACTIONS = 20_000
 
 app = FastAPI(title="Sieve API")
@@ -238,11 +237,19 @@ def renegotiate(req: RenegotiateRequest):
     return {"canonical": req.canonical, "draft": draft}
 
 
+@app.get("/demo")
+def demo_profiles():
+    return {"profiles": list(DEMO_PROFILES)}
+
+
 @app.get("/demo/{profile}")
 def demo(profile: str):
     """The judge's path: no auth, no upload, no network beyond this call."""
     if profile not in DEMO_PROFILES:
         raise HTTPException(404, f"unknown profile; try one of {DEMO_PROFILES}")
-    raw = json.loads((DATA_DIR / profile / "transactions.json").read_text("utf-8"))
-    txns = [Transaction(**{**r, "date": date.fromisoformat(r["date"])}) for r in raw]
-    return {"profile": profile, **analyze(txns)}
+    result = DemoAdapter().fetch(profile)
+    return {
+        "profile": profile,
+        "receipt": {**vars(result.receipt), "summary": result.receipt.summary()},
+        **analyze(result.transactions),
+    }
